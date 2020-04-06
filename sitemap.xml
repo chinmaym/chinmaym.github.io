@@ -3,19 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://chinmaym.github.io/categories/</loc>
+    <loc>https://chinmaymishra.me/about/</loc>
   </url>
   
   <url>
-    <loc>https://chinmaym.github.io/</loc>
+    <loc>https://chinmaymishra.me/categories/</loc>
   </url>
   
   <url>
-    <loc>https://chinmaym.github.io/series/</loc>
+    <loc>https://chinmaymishra.me/</loc>
   </url>
   
   <url>
-    <loc>https://chinmaym.github.io/tags/</loc>
+    <loc>https://chinmaymishra.me/series/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chinmaymishra.me/tags/</loc>
   </url>
   
 </urlset>
