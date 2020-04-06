@@ -3,15 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.chinmaymishra.me/</loc>
+    <lastmod>2020-04-06T01:48:11-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chinmaymishra.me/posts/hello_world_post/</loc>
+    <lastmod>2020-04-06T01:48:11-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chinmaymishra.me/posts/</loc>
+    <lastmod>2020-04-06T01:48:11-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.chinmaymishra.me/about/</loc>
   </url>
   
   <url>
     <loc>https://www.chinmaymishra.me/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.chinmaymishra.me/</loc>
   </url>
   
   <url>

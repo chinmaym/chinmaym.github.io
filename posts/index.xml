@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Chinmay Mishra</title>
+    <link>https://www.chinmaymishra.me/posts/</link>
+    <description>Recent content in Posts on Chinmay Mishra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Apr 2020 01:48:11 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.chinmaymishra.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://www.chinmaymishra.me/posts/hello_world_post/</link>
+      <pubDate>Mon, 06 Apr 2020 01:48:11 -0700</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/posts/hello_world_post/</guid>
+      <description>Hello World</description>
+    </item>
+    
+  </channel>
+</rss>
