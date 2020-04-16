@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Chinmay Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Apr 2020 10:06:30 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 14:51:36 -0700</lastBuildDate>
     
 	<atom:link href="https://www.chinmaymishra.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Leetcode 904</title>
+      <link>https://www.chinmaymishra.me/posts/leetcode_904/</link>
+      <pubDate>Thu, 16 Apr 2020 14:51:36 -0700</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/posts/leetcode_904/</guid>
+      <description>Leetcode 904 Solution Link to the question
+In a row of trees, the i-th tree produces fruit with type tree[i]. You start at any tree of your choice, then repeatedly perform the following steps: Add one piece of fruit from this tree to your baskets. If you cannot, stop. Move to the next tree to the right of the current tree. If there is no tree to the right, stop.</description>
+    </item>
     
     <item>
       <title>Trie Implementation in GoLang</title>
