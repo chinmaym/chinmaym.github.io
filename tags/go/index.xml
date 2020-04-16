@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Chinmay Mishra</title>
-    <link>https://www.chinmaymishra.me/posts/</link>
-    <description>Recent content in Posts on Chinmay Mishra</description>
+    <title>GO on Chinmay Mishra</title>
+    <link>https://www.chinmaymishra.me/tags/go/</link>
+    <description>Recent content in GO on Chinmay Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 16 Apr 2020 10:06:30 -0700</lastBuildDate>
     
-	<atom:link href="https://www.chinmaymishra.me/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.chinmaymishra.me/tags/go/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://www.chinmaymishra.me/posts/trie_implementation_go/</guid>
       <description>Trie Implementation in GO package main import &amp;#34;fmt&amp;#34; const ( // ChildrenLength Length of the alphabets 	ChildrenLength = 26 ) type trieNode struct { children [ChildrenLength]*trieNode isEnd bool } type trie struct { root *trieNode } func initTrie() *trie { return &amp;amp;trie{ root: &amp;amp;trieNode{}, } } func (t *trie) insert(word string) { current := t.root for _, val := range word { index := val - &amp;#39;a&amp;#39; if current.</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://www.chinmaymishra.me/posts/hello_world_post/</link>
-      <pubDate>Mon, 06 Apr 2020 01:48:11 -0700</pubDate>
-      
-      <guid>https://www.chinmaymishra.me/posts/hello_world_post/</guid>
-      <description>Hello World</description>
     </item>
     
   </channel>

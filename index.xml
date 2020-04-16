@@ -6,10 +6,19 @@
     <description>Recent content on Chinmay Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Apr 2020 01:48:11 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 10:06:30 -0700</lastBuildDate>
     
 	<atom:link href="https://www.chinmaymishra.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Trie Implementation in GoLang</title>
+      <link>https://www.chinmaymishra.me/posts/trie_implementation_go/</link>
+      <pubDate>Thu, 16 Apr 2020 10:06:30 -0700</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/posts/trie_implementation_go/</guid>
+      <description>Trie Implementation in GO package main import &amp;#34;fmt&amp;#34; const ( // ChildrenLength Length of the alphabets 	ChildrenLength = 26 ) type trieNode struct { children [ChildrenLength]*trieNode isEnd bool } type trie struct { root *trieNode } func initTrie() *trie { return &amp;amp;trie{ root: &amp;amp;trieNode{}, } } func (t *trie) insert(word string) { current := t.root for _, val := range word { index := val - &amp;#39;a&amp;#39; if current.</description>
+    </item>
     
     <item>
       <title>Hello World</title>
