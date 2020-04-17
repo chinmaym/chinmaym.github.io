@@ -10,24 +10,28 @@
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Python"/>
-<meta name="twitter:description" content="Chinmay Mishra&#39;s personal website"/>
+<meta name="twitter:title" content="69_sqrt"/>
+<meta name="twitter:description" content="Link to the question
+Implement int sqrt(int x). Compute and return the square root of x, where x is guaranteed to be a non-negative integer. Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned. Example 1: Input: 4 Output: 2 Example 2: Input: 8 Output: 2 Explanation: The square root of 8 is 2.82842..., and since the decimal part is truncated, 2 is returned."/>
 
-    <meta property="og:title" content="Python" />
-<meta property="og:description" content="Chinmay Mishra&#39;s personal website" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.chinmaymishra.me/tags/python/" />
+    <meta property="og:title" content="69_sqrt" />
+<meta property="og:description" content="Link to the question
+Implement int sqrt(int x). Compute and return the square root of x, where x is guaranteed to be a non-negative integer. Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned. Example 1: Input: 4 Output: 2 Example 2: Input: 8 Output: 2 Explanation: The square root of 8 is 2.82842..., and since the decimal part is truncated, 2 is returned." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.chinmaymishra.me/leetcode/69_sqrt/" />
+<meta property="article:published_time" content="2020-04-13T02:44:22-07:00" />
+<meta property="article:modified_time" content="2020-04-13T02:44:22-07:00" />
 
-<meta property="og:updated_time" content="2020-04-16T14:51:36-07:00" />
-
-
-    
-      <base href="https://www.chinmaymishra.me/tags/python/">
-    
-    <title>Tag: Python · Chinmay Mishra</title>
 
     
-      <link rel="canonical" href="https://www.chinmaymishra.me/tags/python/">
+      <base href="https://www.chinmaymishra.me/leetcode/69_sqrt/">
+    
+    <title>
+  69_sqrt · Chinmay Mishra
+</title>
+
+    
+      <link rel="canonical" href="https://www.chinmaymishra.me/leetcode/69_sqrt/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -59,7 +63,6 @@
     <link rel="icon" type="image/png" href="https://www.chinmaymishra.me/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.chinmaymishra.me/images/favicon-16x16.png" sizes="16x16">
 
-    <link rel="alternate" type="application/rss+xml" href="https://www.chinmaymishra.me/tags/python/index.xml" title="Chinmay Mishra" />
     <meta name="generator" content="Hugo 0.58.3" />
   </head>
 
@@ -110,24 +113,49 @@
 
       <div class="content">
         
-  <section class="container list">
-  <h1 class="title">Tag: Python</h1>
-  
-  <ul>
-    
-    <li>
-      <span class="date">April 16, 2020</span>
-      <a class="title" href="https://www.chinmaymishra.me/posts/leetcode_904/">Leetcode 904</a>
-    </li>
-    
-  </ul>
-  
+  <section class="container page">
+  <article>
+    <header>
+      <h1>69_sqrt</h1>
+    </header>
 
+    <p><a href="https://leetcode.com/problems/sqrtx/" title="Sqrt">Link to the question</a></p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">Implement int sqrt(int x).
 
+Compute and return the square root of x, where x is guaranteed to be a non-negative integer.
 
+Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned.
 
+Example 1:
 
+Input: 4
+Output: 2
 
+Example 2:
+
+Input: 8
+Output: 2
+Explanation: The square root of 8 is 2.82842..., and since 
+             the decimal part is truncated, 2 is returned.</pre></div>
+<p>I have implemented a approximation algorithm by newton to find the sqrt of a number. Google it.</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#fff;font-weight:bold">func</span> getNext(x <span style="color:#fff;font-weight:bold">float64</span>, n <span style="color:#fff;font-weight:bold">float64</span>) <span style="color:#fff;font-weight:bold">float64</span> {
+    <span style="color:#fff;font-weight:bold">return</span> <span style="color:#ff0;font-weight:bold">0.5</span>*(x+(n/(x*<span style="color:#ff0;font-weight:bold">1.0</span>)))
+}
+
+<span style="color:#fff;font-weight:bold">func</span> mySqrt(n1 <span style="color:#fff;font-weight:bold">int</span>) <span style="color:#fff;font-weight:bold">int</span> {
+    x := <span style="color:#ff0;font-weight:bold">1.0</span>
+    n := <span style="color:#fff;font-weight:bold">float64</span>(n1)
+    <span style="color:#fff;font-weight:bold">for</span> {
+        nx := getNext(x, n)
+        <span style="color:#fff;font-weight:bold">if</span> math.Abs(x - nx) &lt; <span style="color:#ff0;font-weight:bold">1</span> {
+            x=nx
+            <span style="color:#fff;font-weight:bold">break</span>
+        }
+        x = nx
+    }
+    <span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">int</span>(x)
+}</code></pre></div>
+  </article>
 </section>
 
 

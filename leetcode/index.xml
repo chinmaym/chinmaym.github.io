@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chinmay Mishra</title>
-    <link>https://www.chinmaymishra.me/</link>
-    <description>Recent content on Chinmay Mishra</description>
+    <title>Leetcodes on Chinmay Mishra</title>
+    <link>https://www.chinmaymishra.me/leetcode/</link>
+    <description>Recent content in Leetcodes on Chinmay Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 17 Apr 2020 01:44:26 -0700</lastBuildDate>
     
-	<atom:link href="https://www.chinmaymishra.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.chinmaymishra.me/leetcode/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,25 +19,6 @@
       <guid>https://www.chinmaymishra.me/leetcode/1389_create_target_array_in_given_order/</guid>
       <description>Leetcode 1389 Link to the question
 Given two arrays of integers nums and index. Your task is to create target array under the following rules: Initially target array is empty. From left to right read nums[i] and index[i], insert at index index[i] the value nums[i] in target array. Repeat the previous step until there are no elements to read in nums and index. Return the target array. It is guaranteed that the insertion operations will be valid.</description>
-    </item>
-    
-    <item>
-      <title>Leetcode 904</title>
-      <link>https://www.chinmaymishra.me/posts/leetcode_904/</link>
-      <pubDate>Thu, 16 Apr 2020 14:51:36 -0700</pubDate>
-      
-      <guid>https://www.chinmaymishra.me/posts/leetcode_904/</guid>
-      <description>Leetcode 904 Solution Link to the question
-In a row of trees, the i-th tree produces fruit with type tree[i]. You start at any tree of your choice, then repeatedly perform the following steps: Add one piece of fruit from this tree to your baskets. If you cannot, stop. Move to the next tree to the right of the current tree. If there is no tree to the right, stop.</description>
-    </item>
-    
-    <item>
-      <title>Trie Implementation in GoLang</title>
-      <link>https://www.chinmaymishra.me/posts/trie_implementation_go/</link>
-      <pubDate>Thu, 16 Apr 2020 10:06:30 -0700</pubDate>
-      
-      <guid>https://www.chinmaymishra.me/posts/trie_implementation_go/</guid>
-      <description>Trie Implementation in GO package main import &amp;#34;fmt&amp;#34; const ( // ChildrenLength Length of the alphabets 	ChildrenLength = 26 ) type trieNode struct { children [ChildrenLength]*trieNode isEnd bool } type trie struct { root *trieNode } func initTrie() *trie { return &amp;amp;trie{ root: &amp;amp;trieNode{}, } } func (t *trie) insert(word string) { current := t.root for _, val := range word { index := val - &amp;#39;a&amp;#39; if current.</description>
     </item>
     
     <item>
@@ -149,24 +130,6 @@ Given an array nums with n integers, your task is to check if it could become no
       <guid>https://www.chinmaymishra.me/leetcode/intro/</guid>
       <description>This is the start of my Leetcode challenge. I have recently been inspired to solve all the leetcode problems. I usually have these kind of latent interests of mine awakened by some some video that i saw on youtube or some blog that i read. I will try to solve as many questions as i can, I will be trying to solve atleast one a day.
 I will start with easy ones and then transition into the medium and hard level questions.</description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://www.chinmaymishra.me/posts/hello_world_post/</link>
-      <pubDate>Mon, 06 Apr 2020 01:48:11 -0700</pubDate>
-      
-      <guid>https://www.chinmaymishra.me/posts/hello_world_post/</guid>
-      <description>Hello World</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://www.chinmaymishra.me/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.chinmaymishra.me/about/</guid>
-      <description>This blog is my place to write about all the new things that I find on the internet. I don&amp;rsquo;t believe in bookmarks, hence I just vomit everything out in this space. I have tried documenting in various ways but it never works. Hopefully this sticks.</description>
     </item>
     
   </channel>

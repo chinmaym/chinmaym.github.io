@@ -10,24 +10,28 @@
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Python"/>
-<meta name="twitter:description" content="Chinmay Mishra&#39;s personal website"/>
+<meta name="twitter:title" content="771_jewels_and_stone"/>
+<meta name="twitter:description" content="Leetcode 771 Link to the question
+You&#39;re given strings J representing the types of stones that are jewels, and S representing the stones you have. Each character in S is a type of stone you have. You want to know how many of the stones you have are also jewels. The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so &#34;a&#34; is considered a different type of stone from &#34;A&#34;."/>
 
-    <meta property="og:title" content="Python" />
-<meta property="og:description" content="Chinmay Mishra&#39;s personal website" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.chinmaymishra.me/tags/python/" />
+    <meta property="og:title" content="771_jewels_and_stone" />
+<meta property="og:description" content="Leetcode 771 Link to the question
+You&#39;re given strings J representing the types of stones that are jewels, and S representing the stones you have. Each character in S is a type of stone you have. You want to know how many of the stones you have are also jewels. The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so &#34;a&#34; is considered a different type of stone from &#34;A&#34;." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.chinmaymishra.me/leetcode/771_jewels_and_stone/" />
+<meta property="article:published_time" content="2020-04-13T03:02:11-07:00" />
+<meta property="article:modified_time" content="2020-04-13T03:02:11-07:00" />
 
-<meta property="og:updated_time" content="2020-04-16T14:51:36-07:00" />
-
-
-    
-      <base href="https://www.chinmaymishra.me/tags/python/">
-    
-    <title>Tag: Python · Chinmay Mishra</title>
 
     
-      <link rel="canonical" href="https://www.chinmaymishra.me/tags/python/">
+      <base href="https://www.chinmaymishra.me/leetcode/771_jewels_and_stone/">
+    
+    <title>
+  771_jewels_and_stone · Chinmay Mishra
+</title>
+
+    
+      <link rel="canonical" href="https://www.chinmaymishra.me/leetcode/771_jewels_and_stone/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -59,7 +63,6 @@
     <link rel="icon" type="image/png" href="https://www.chinmaymishra.me/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.chinmaymishra.me/images/favicon-16x16.png" sizes="16x16">
 
-    <link rel="alternate" type="application/rss+xml" href="https://www.chinmaymishra.me/tags/python/index.xml" title="Chinmay Mishra" />
     <meta name="generator" content="Hugo 0.58.3" />
   </head>
 
@@ -110,24 +113,43 @@
 
       <div class="content">
         
-  <section class="container list">
-  <h1 class="title">Tag: Python</h1>
-  
-  <ul>
+  <section class="container page">
+  <article>
+    <header>
+      <h1>771_jewels_and_stone</h1>
+    </header>
+
     
-    <li>
-      <span class="date">April 16, 2020</span>
-      <a class="title" href="https://www.chinmaymishra.me/posts/leetcode_904/">Leetcode 904</a>
-    </li>
-    
-  </ul>
-  
 
+<h1 id="leetcode-771">Leetcode 771</h1>
 
+<p><a href="https://leetcode.com/problems/jewels-and-stones/" title="Jewels and Stones">Link to the question</a></p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4">You&#39;re given strings J representing the types of stones that are jewels, and S representing the stones you have.  Each character in S is a type of stone you have.  You want to know how many of the stones you have are also jewels.
 
+The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so &#34;a&#34; is considered a different type of stone from &#34;A&#34;.
 
+Example 1:
 
+Input: J = &#34;aA&#34;, S = &#34;aAAbbbb&#34;
+Output: 3
 
+Example 2:
+
+Input: J = &#34;z&#34;, S = &#34;ZZ&#34;
+Output: 0</pre></div>
+<p>My solution -</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#fff;font-weight:bold">func</span> numJewelsInStones(J <span style="color:#fff;font-weight:bold">string</span>, S <span style="color:#fff;font-weight:bold">string</span>) <span style="color:#fff;font-weight:bold">int</span> {
+    stoneMap := <span style="color:#fff;font-weight:bold">make</span>(<span style="color:#fff;font-weight:bold">map</span>[<span style="color:#fff;font-weight:bold">string</span>]<span style="color:#fff;font-weight:bold">int</span>)
+    <span style="color:#fff;font-weight:bold">for</span> _,i := <span style="color:#fff;font-weight:bold">range</span>(S) {
+        stoneMap[<span style="color:#fff;font-weight:bold">string</span>(i)] += <span style="color:#ff0;font-weight:bold">1</span>
+    }
+    ret := <span style="color:#ff0;font-weight:bold">0</span>
+    <span style="color:#fff;font-weight:bold">for</span> _,i:= <span style="color:#fff;font-weight:bold">range</span>(J) {
+        ret += stoneMap[<span style="color:#fff;font-weight:bold">string</span>(i)]
+    }
+    <span style="color:#fff;font-weight:bold">return</span> ret
+}</code></pre></div>
+  </article>
 </section>
 
 
