@@ -92,11 +92,11 @@ You&amp;#39;re given strings J representing the types of stones that are jewels,
     </item>
     
     <item>
-      <title>69_sqrt</title>
-      <link>https://www.chinmaymishra.me/leetcode/69_sqrt/</link>
+      <title>69 sqrt</title>
+      <link>https://www.chinmaymishra.me/leetcode/leetcode/</link>
       <pubDate>Mon, 13 Apr 2020 02:44:22 -0700</pubDate>
       
-      <guid>https://www.chinmaymishra.me/leetcode/69_sqrt/</guid>
+      <guid>https://www.chinmaymishra.me/leetcode/leetcode/</guid>
       <description>Link to the question
 Implement int sqrt(int x). Compute and return the square root of x, where x is guaranteed to be a non-negative integer. Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned. Example 1: Input: 4 Output: 2 Example 2: Input: 8 Output: 2 Explanation: The square root of 8 is 2.82842..., and since the decimal part is truncated, 2 is returned.</description>
     </item>
@@ -130,6 +130,15 @@ Given an array nums with n integers, your task is to check if it could become no
       <guid>https://www.chinmaymishra.me/leetcode/intro/</guid>
       <description>This is the start of my Leetcode challenge. I have recently been inspired to solve all the leetcode problems. I usually have these kind of latent interests of mine awakened by some some video that i saw on youtube or some blog that i read. I will try to solve as many questions as i can, I will be trying to solve atleast one a day.
 I will start with easy ones and then transition into the medium and hard level questions.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.chinmaymishra.me/leetcode/21_merge_two_sorted_lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/21_merge_two_sorted_lists/</guid>
+      <description></description>
     </item>
     
   </channel>

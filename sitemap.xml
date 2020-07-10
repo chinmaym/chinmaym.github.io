@@ -133,7 +133,7 @@
   </url>
   
   <url>
-    <loc>https://www.chinmaymishra.me/leetcode/69_sqrt/</loc>
+    <loc>https://www.chinmaymishra.me/leetcode/leetcode/</loc>
     <lastmod>2020-04-13T02:44:22-07:00</lastmod>
   </url>
   
@@ -155,6 +155,11 @@
   <url>
     <loc>https://www.chinmaymishra.me/posts/hello_world_post/</loc>
     <lastmod>2020-04-06T01:48:11-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chinmaymishra.me/leetcode/21_merge_two_sorted_lists/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
