@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Chinmay Mishra</title>
@@ -6,15 +6,11 @@
     <description>Recent content in Tags on Chinmay Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Apr 2020 01:44:26 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.chinmaymishra.me/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 24 Oct 2020 13:00:07 -0700</lastBuildDate><atom:link href="https://www.chinmaymishra.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leetcode</title>
       <link>https://www.chinmaymishra.me/tags/leetcode/</link>
-      <pubDate>Fri, 17 Apr 2020 01:44:26 -0700</pubDate>
+      <pubDate>Sat, 24 Oct 2020 13:00:07 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/tags/leetcode/</guid>
       <description></description>

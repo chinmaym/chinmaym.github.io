@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chinmay Mishra</title>
@@ -6,10 +6,16 @@
     <description>Recent content on Chinmay Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Apr 2020 01:44:26 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.chinmaymishra.me/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 24 Oct 2020 13:00:07 -0700</lastBuildDate><atom:link href="https://www.chinmaymishra.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1_two_sum</title>
+      <link>https://www.chinmaymishra.me/leetcode/leetcode/</link>
+      <pubDate>Sat, 24 Oct 2020 13:00:07 -0700</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/leetcode/</guid>
+      <description>Leetcode 1 [Link to the question] (https://leetcode.com/problems/two-sum/ &amp;ldquo;2 Sum&amp;rdquo;)
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order. Example 1: Input: nums = [2,7,11,15], target = 9 Output: [0,1] Output: Because nums[0] + nums[1] == 9, we return [0, 1].</description>
+    </item>
     
     <item>
       <title>1389_create_target_array_in_given_order</title>
@@ -17,8 +23,8 @@
       <pubDate>Fri, 17 Apr 2020 01:44:26 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1389_create_target_array_in_given_order/</guid>
-      <description>Leetcode 1389 Link to the question
-Given two arrays of integers nums and index. Your task is to create target array under the following rules: Initially target array is empty. From left to right read nums[i] and index[i], insert at index index[i] the value nums[i] in target array. Repeat the previous step until there are no elements to read in nums and index. Return the target array. It is guaranteed that the insertion operations will be valid.</description>
+      <description>Leetcode 1389 [Link to the question] (https://leetcode.com/problems/create-target-array-in-the-given-order/ &amp;ldquo;create target array in the given order&amp;rdquo;)
+Given two arrays of integers nums and index. Your task is to create target array under the following rules: Initially target array is empty. From left to right read nums[i] and index[i], insert at index index[i] the value nums[i] in target array. Repeat the previous step until there are no elements to read in nums and index.</description>
     </item>
     
     <item>
@@ -27,7 +33,7 @@ Given two arrays of integers nums and index. Your task is to create target array
       <pubDate>Thu, 16 Apr 2020 14:51:36 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/posts/leetcode_904/</guid>
-      <description>Leetcode 904 Solution Link to the question
+      <description>Leetcode 904 Solution [Link to the question] (https://leetcode.com/problems/fruit-into-baskets &amp;ldquo;Leetcode 904&amp;rdquo;)
 In a row of trees, the i-th tree produces fruit with type tree[i]. You start at any tree of your choice, then repeatedly perform the following steps: Add one piece of fruit from this tree to your baskets. If you cannot, stop. Move to the next tree to the right of the current tree. If there is no tree to the right, stop.</description>
     </item>
     
@@ -37,7 +43,7 @@ In a row of trees, the i-th tree produces fruit with type tree[i]. You start at 
       <pubDate>Thu, 16 Apr 2020 10:06:30 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/posts/trie_implementation_go/</guid>
-      <description>Trie Implementation in GO package main import &amp;#34;fmt&amp;#34; const ( // ChildrenLength Length of the alphabets 	ChildrenLength = 26 ) type trieNode struct { children [ChildrenLength]*trieNode isEnd bool } type trie struct { root *trieNode } func initTrie() *trie { return &amp;amp;trie{ root: &amp;amp;trieNode{}, } } func (t *trie) insert(word string) { current := t.root for _, val := range word { index := val - &amp;#39;a&amp;#39; if current.</description>
+      <description>Trie Implementation in GO package main import &amp;#34;fmt&amp;#34; const ( // ChildrenLength Length of the alphabets 	ChildrenLength = 26 ) type trieNode struct { children [ChildrenLength]*trieNode isEnd bool } type trie struct { root *trieNode } func initTrie() *trie { return &amp;amp;trie{ root: &amp;amp;trieNode{}, } } func (t *trie) insert(word string) { current := t.root for _, val := range word { index := val - &amp;#39;a&amp;#39; if current.children[index] == nil { current.</description>
     </item>
     
     <item>
@@ -46,8 +52,8 @@ In a row of trees, the i-th tree produces fruit with type tree[i]. You start at 
       <pubDate>Thu, 16 Apr 2020 01:59:14 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1342_number_of_steps_to_reduce_to_zero/</guid>
-      <description>Leetcode 1342 Link to the question
-Given a non-negative integer num, return the number of steps to reduce it to zero. If the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it. Example 1: Input: num = 14 Output: 6 Explanation: Step 1) 14 is even; divide by 2 and obtain 7. Step 2) 7 is odd; subtract 1 and obtain 6.</description>
+      <description>Leetcode 1342 [Link to the question] (https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/ &amp;ldquo;Number of Steps to Reduce a Number to Zero&amp;rdquo;)
+Given a non-negative integer num, return the number of steps to reduce it to zero. If the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it. Example 1: Input: num = 14 Output: 6 Explanation: Step 1) 14 is even; divide by 2 and obtain 7.</description>
     </item>
     
     <item>
@@ -56,7 +62,7 @@ Given a non-negative integer num, return the number of steps to reduce it to zer
       <pubDate>Thu, 16 Apr 2020 01:55:48 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1403_minimum_subsequence_in_non_increasing_array/</guid>
-      <description>Leetcode 1403 Link to the question
+      <description>Leetcode 1403 [Link to the question] (https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/ &amp;ldquo;Minimum Subsequence in Non-Increasing Order&amp;rdquo;)
 Given the array nums, obtain a subsequence of the array whose sum of elements is strictly greater than the sum of the non included elements in such subsequence. If there are multiple solutions, return the subsequence with minimum size and if there still exist multiple solutions, return the subsequence with the maximum total sum of all its elements. A subsequence of an array can be obtained by erasing some (possibly zero) elements from the array.</description>
     </item>
     
@@ -66,7 +72,7 @@ Given the array nums, obtain a subsequence of the array whose sum of elements is
       <pubDate>Thu, 16 Apr 2020 01:51:56 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1394_find_lucky_integer_in_an_array/</guid>
-      <description>Leetcode 1394 Link to the question
+      <description>Leetcode 1394 [Link to the question] (https://leetcode.com/problems/find-lucky-integer-in-an-array/ &amp;ldquo;find lucky integer in an array&amp;rdquo;)
 Given an array of integers arr, a lucky integer is an integer which has a frequency in the array equal to its value. Return a lucky integer in the array. If there are multiple lucky integers return the largest of them. If there is no lucky integer return -1. Example 1: Input: arr = [2,2,3,4] Output: 2 Explanation: The only lucky number in the array is 2 because frequency[2] == 2.</description>
     </item>
     
@@ -76,8 +82,8 @@ Given an array of integers arr, a lucky integer is an integer which has a freque
       <pubDate>Wed, 15 Apr 2020 02:03:50 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1408_string_matching_in_an_array/</guid>
-      <description>Leetcode 1408 Link to the question
-Given an array of string words. Return all strings in words which is substring of another word in any order. String words[i] is substring of words[j], if can be obtained removing some characters to left and/or right side of words[j]. Example 1: Input: words = [&amp;#34;mass&amp;#34;,&amp;#34;as&amp;#34;,&amp;#34;hero&amp;#34;,&amp;#34;superhero&amp;#34;] Output: [&amp;#34;as&amp;#34;,&amp;#34;hero&amp;#34;] Explanation: &amp;#34;as&amp;#34; is substring of &amp;#34;mass&amp;#34; and &amp;#34;hero&amp;#34; is substring of &amp;#34;superhero&amp;#34;. [&amp;#34;hero&amp;#34;,&amp;#34;as&amp;#34;] is also a valid answer.</description>
+      <description>Leetcode 1408 [Link to the question] (https://leetcode.com/problems/string-matching-in-an-array/ &amp;ldquo;String Matching in an Array&amp;rdquo;)
+Given an array of string words. Return all strings in words which is substring of another word in any order. String words[i] is substring of words[j], if can be obtained removing some characters to left and/or right side of words[j]. Example 1: Input: words = [&amp;#34;mass&amp;#34;,&amp;#34;as&amp;#34;,&amp;#34;hero&amp;#34;,&amp;#34;superhero&amp;#34;] Output: [&amp;#34;as&amp;#34;,&amp;#34;hero&amp;#34;] Explanation: &amp;#34;as&amp;#34; is substring of &amp;#34;mass&amp;#34; and &amp;#34;hero&amp;#34; is substring of &amp;#34;superhero&amp;#34;.</description>
     </item>
     
     <item>
@@ -86,8 +92,8 @@ Given an array of string words. Return all strings in words which is substring o
       <pubDate>Tue, 14 Apr 2020 02:10:42 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1313_decompress-run-length-encoded-list/</guid>
-      <description>Leetcode 1313 Link to the question
-We are given a list nums of integers representing a list compressed with run-length encoding. Consider each adjacent pair of elements [freq, val] = [nums[2*i], nums[2*i+1]] (with i &amp;gt;= 0). For each such pair, there are freq elements with value val concatenated in a sublist. Concatenate all the sublists from left to right to generate the decompressed list. Return the decompressed list. Example 1: Input: nums = [1,2,3,4] Output: [2,4,4,4] Explanation: The first pair [1,2] means we have freq = 1 and val = 2 so we generate the array [2].</description>
+      <description>Leetcode 1313 [Link to the question] (https://leetcode.com/problems/decompress-run-length-encoded-list/ &amp;ldquo;Decompress Run-Length Encoded List&amp;rdquo;)
+We are given a list nums of integers representing a list compressed with run-length encoding. Consider each adjacent pair of elements [freq, val] = [nums[2*i], nums[2*i+1]] (with i &amp;gt;= 0). For each such pair, there are freq elements with value val concatenated in a sublist. Concatenate all the sublists from left to right to generate the decompressed list. Return the decompressed list.</description>
     </item>
     
     <item>
@@ -96,8 +102,8 @@ We are given a list nums of integers representing a list compressed with run-len
       <pubDate>Tue, 14 Apr 2020 02:07:26 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1295_find-numbers-with-even-number-of-digits/</guid>
-      <description>Leetcode 1295 Link to the question
-Given an array nums of integers, return how many of them contain an even number of digits. Example 1: Input: nums = [12,345,2,6,7896] Output: 2 Explanation: 12 contains 2 digits (even number of digits). 345 contains 3 digits (odd number of digits). 2 contains 1 digit (odd number of digits). 6 contains 1 digit (odd number of digits). 7896 contains 4 digits (even number of digits).</description>
+      <description>Leetcode 1295 [Link to the question] (https://leetcode.com/problems/find-numbers-with-even-number-of-digits/ &amp;ldquo;Find Numbers with Even Number of Digits&amp;rdquo;)
+Given an array nums of integers, return how many of them contain an even number of digits. Example 1: Input: nums = [12,345,2,6,7896] Output: 2 Explanation: 12 contains 2 digits (even number of digits). 345 contains 3 digits (odd number of digits). 2 contains 1 digit (odd number of digits). 6 contains 1 digit (odd number of digits).</description>
     </item>
     
     <item>
@@ -106,7 +112,7 @@ Given an array nums of integers, return how many of them contain an even number 
       <pubDate>Mon, 13 Apr 2020 03:02:11 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/771_jewels_and_stone/</guid>
-      <description>Leetcode 771 Link to the question
+      <description>Leetcode 771 [Link to the question] (https://leetcode.com/problems/jewels-and-stones/ &amp;ldquo;Jewels and Stones&amp;rdquo;)
 You&amp;#39;re given strings J representing the types of stones that are jewels, and S representing the stones you have. Each character in S is a type of stone you have. You want to know how many of the stones you have are also jewels. The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so &amp;#34;a&amp;#34; is considered a different type of stone from &amp;#34;A&amp;#34;.</description>
     </item>
     
@@ -116,7 +122,7 @@ You&amp;#39;re given strings J representing the types of stones that are jewels,
       <pubDate>Mon, 13 Apr 2020 02:44:22 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/leetcode/</guid>
-      <description>Link to the question
+      <description>[Link to the question] (https://leetcode.com/problems/sqrtx/ &amp;ldquo;Sqrt&amp;rdquo;)
 Implement int sqrt(int x). Compute and return the square root of x, where x is guaranteed to be a non-negative integer. Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned. Example 1: Input: 4 Output: 2 Example 2: Input: 8 Output: 2 Explanation: The square root of 8 is 2.82842..., and since the decimal part is truncated, 2 is returned.</description>
     </item>
     
@@ -126,9 +132,8 @@ Implement int sqrt(int x). Compute and return the square root of x, where x is g
       <pubDate>Mon, 13 Apr 2020 02:12:28 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1281_subtract-the-product-and-sum-of-digits-of-an-integer/</guid>
-      <description> Leetcode 1281 Link to the question
-Given an integer number n, return the difference between the product of its digits and the sum of its digits. Example 1: Input: n = 234 Output: 15 Explanation: Product of digits = 2 * 3 * 4 = 24 Sum of digits = 2 + 3 + 4 = 9 Result = 24 - 9 = 15 My solution -
-func subtractProductAndSum(n int) int { prod := 1; sum := 0; for n &amp;gt;0 { rem := n % 10; sum += rem; prod *= rem; n /= 10; } return prod - sum; }</description>
+      <description>Leetcode 1281 [Link to the question] (https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ &amp;ldquo;Subtract the Product and Sum of Digits of an Integer&amp;rdquo;)
+Given an integer number n, return the difference between the product of its digits and the sum of its digits. Example 1: Input: n = 234 Output: 15 Explanation: Product of digits = 2 * 3 * 4 = 24 Sum of digits = 2 + 3 + 4 = 9 Result = 24 - 9 = 15 My solution -</description>
     </item>
     
     <item>
@@ -137,7 +142,7 @@ func subtractProductAndSum(n int) int { prod := 1; sum := 0; for n &amp;gt;0 { r
       <pubDate>Sun, 12 Apr 2020 03:05:53 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/665_non_decreasing_array/</guid>
-      <description>Leetcode 665 Link to the question
+      <description>Leetcode 665 [Link to the question] (https://leetcode.com/problems/non-decreasing-array/ &amp;ldquo;Non-decreasing Array&amp;rdquo;)
 Given an array nums with n integers, your task is to check if it could become non-decreasing by modifying at most 1 element. We define an array is non-decreasing if nums[i] &amp;lt;= nums[i + 1] holds for every i (0-based) such that (0 &amp;lt;= i &amp;lt;= n - 2). Example 1: Input: nums = [4,2,3] Output: true Explanation: You could modify the first 4 to 1 to get a non-decreasing array.</description>
     </item>
     
@@ -152,21 +157,21 @@ I will start with easy ones and then transition into the medium and hard level q
     </item>
     
     <item>
+      <title></title>
+      <link>https://www.chinmaymishra.me/posts/understanding_go_packages/</link>
+      <pubDate>Wed, 08 Apr 2020 14:52:59 -0700</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/posts/understanding_go_packages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hello World</title>
       <link>https://www.chinmaymishra.me/posts/hello_world_post/</link>
       <pubDate>Mon, 06 Apr 2020 01:48:11 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/posts/hello_world_post/</guid>
       <description>Hello World</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://www.chinmaymishra.me/leetcode/21_merge_two_sorted_lists/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.chinmaymishra.me/leetcode/21_merge_two_sorted_lists/</guid>
-      <description></description>
     </item>
     
     <item>

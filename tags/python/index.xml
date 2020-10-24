@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Chinmay Mishra</title>
@@ -6,18 +6,14 @@
     <description>Recent content in Python on Chinmay Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Apr 2020 14:51:36 -0700</lastBuildDate>
-    
-	<atom:link href="https://www.chinmaymishra.me/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 16 Apr 2020 14:51:36 -0700</lastBuildDate><atom:link href="https://www.chinmaymishra.me/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Leetcode 904</title>
       <link>https://www.chinmaymishra.me/posts/leetcode_904/</link>
       <pubDate>Thu, 16 Apr 2020 14:51:36 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/posts/leetcode_904/</guid>
-      <description>Leetcode 904 Solution Link to the question
+      <description>Leetcode 904 Solution [Link to the question] (https://leetcode.com/problems/fruit-into-baskets &amp;ldquo;Leetcode 904&amp;rdquo;)
 In a row of trees, the i-th tree produces fruit with type tree[i]. You start at any tree of your choice, then repeatedly perform the following steps: Add one piece of fruit from this tree to your baskets. If you cannot, stop. Move to the next tree to the right of the current tree. If there is no tree to the right, stop.</description>
     </item>
     
