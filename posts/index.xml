@@ -27,21 +27,21 @@ In a row of trees, the i-th tree produces fruit with type tree[i]. You start at 
     </item>
     
     <item>
-      <title></title>
-      <link>https://www.chinmaymishra.me/posts/understanding_go_packages/</link>
-      <pubDate>Wed, 08 Apr 2020 14:52:59 -0700</pubDate>
-      
-      <guid>https://www.chinmaymishra.me/posts/understanding_go_packages/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Hello World</title>
       <link>https://www.chinmaymishra.me/posts/hello_world_post/</link>
       <pubDate>Mon, 06 Apr 2020 01:48:11 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/posts/hello_world_post/</guid>
       <description>Hello World</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.chinmaymishra.me/posts/linked_list_implementation_go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/posts/linked_list_implementation_go/</guid>
+      <description></description>
     </item>
     
   </channel>

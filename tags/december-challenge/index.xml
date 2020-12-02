@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>December Challenge on Chinmay Mishra</title>
+    <link>https://www.chinmaymishra.me/tags/december-challenge/</link>
+    <description>Recent content in December Challenge on Chinmay Mishra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Dec 2020 01:21:46 -0800</lastBuildDate><atom:link href="https://www.chinmaymishra.me/tags/december-challenge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>December_week_1_bonus</title>
+      <link>https://www.chinmaymishra.me/leetcode/december_week_1_bonus/</link>
+      <pubDate>Wed, 02 Dec 2020 01:21:46 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/december_week_1_bonus/</guid>
+      <description>Leetcode December Challenge Day 1 Link to the question
+Solution
+class Solution(object): def shortestDistance(self, words, word1, word2): &amp;#34;&amp;#34;&amp;#34; :type words: List[str] :type word1: str :type word2: str :rtype: int &amp;#34;&amp;#34;&amp;#34; val1 = val2 = None dist = len(words) for i in range(len(words)): if words[i] == word1: val1 = i if words[i] == word2: val2 = i if val1 != None and val2 != None: dist = min(dist,abs(val1-val2)) return dist </description>
+    </item>
+    
+    <item>
+      <title>December_day_1</title>
+      <link>https://www.chinmaymishra.me/leetcode/december_day_1/</link>
+      <pubDate>Wed, 02 Dec 2020 01:10:00 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/december_day_1/</guid>
+      <description>Leetcode December Challenge Day 1 Link to the question
+Solution to the question
+class Solution(object): def maxDepth(self, root): &amp;#34;&amp;#34;&amp;#34; :type root: TreeNode :rtype: int &amp;#34;&amp;#34;&amp;#34; if root is None: return 0 return 1+ max(self.maxDepth(root.left), self.maxDepth(root.right)) </description>
+    </item>
+    
+  </channel>
+</rss>
