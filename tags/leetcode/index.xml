@@ -6,7 +6,48 @@
     <description>Recent content in Leetcode on Chinmay Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Dec 2020 01:21:46 -0800</lastBuildDate><atom:link href="https://www.chinmaymishra.me/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Dec 2020 23:19:39 -0800</lastBuildDate><atom:link href="https://www.chinmaymishra.me/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>346_moving_average_from_data_stream</title>
+      <link>https://www.chinmaymishra.me/leetcode/346_moving_average_from_data_stream/</link>
+      <pubDate>Wed, 02 Dec 2020 23:19:39 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/346_moving_average_from_data_stream/</guid>
+      <description>Leetcode 346 Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window. Example: MovingAverage m = new MovingAverage(3); m.next(1) = 1 m.next(10) = (1 + 10) / 2 m.next(3) = (1 + 10 + 3) / 3 m.next(5) = (10 + 3 + 5) / 3 My solution -
+class MovingAverage: def __init__(self, size: int): &amp;#34;&amp;#34;&amp;#34; Initialize your data structure here.</description>
+    </item>
+    
+    <item>
+      <title>1021_remove_outermost_parentheses</title>
+      <link>https://www.chinmaymishra.me/leetcode/1021_remove_outermost_parentheses/</link>
+      <pubDate>Wed, 02 Dec 2020 23:16:16 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/1021_remove_outermost_parentheses/</guid>
+      <description>Leetcode 1021 Link to the question
+A valid parentheses string is either empty (&amp;#34;&amp;#34;), &amp;#34;(&amp;#34; + A + &amp;#34;)&amp;#34;, or A + B, where A and B are valid parentheses strings, and + represents string concatenation. For example, &amp;#34;&amp;#34;, &amp;#34;()&amp;#34;, &amp;#34;(())()&amp;#34;, and &amp;#34;(()(()))&amp;#34; are all valid parentheses strings. A valid parentheses string S is primitive if it is nonempty, and there does not exist a way to split it into S = A+B, with A and B nonempty valid parentheses strings.</description>
+    </item>
+    
+    <item>
+      <title>December_day_2</title>
+      <link>https://www.chinmaymishra.me/leetcode/december_day_2/</link>
+      <pubDate>Wed, 02 Dec 2020 23:10:08 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/december_day_2/</guid>
+      <description>Leetcode December Challenge Day 2 Link to the question
+Solution to the question
+import random class Solution: def __init__(self, head: ListNode): &amp;#34;&amp;#34;&amp;#34; @param head The linked list&amp;#39;s head. Note that the head is guaranteed to be not null, so it contains at least one node. &amp;#34;&amp;#34;&amp;#34; self.head = head self.length = None def getRandom(self) -&amp;gt; int: &amp;#34;&amp;#34;&amp;#34; Returns a random node&amp;#39;s value. &amp;#34;&amp;#34;&amp;#34; head = self.head if self.length == None: self.</description>
+    </item>
+    
+    <item>
+      <title>1470_shuffle_the_array</title>
+      <link>https://www.chinmaymishra.me/leetcode/leetcode/</link>
+      <pubDate>Wed, 02 Dec 2020 18:36:57 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/leetcode/</guid>
+      <description>Leetcode 1470 Link to the question
+Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn]. Return the array in the form [x1,y1,x2,y2,...,xn,yn]. Example 1: Input: nums = [2,5,1,3,4,7], n = 3 Output: [2,3,5,4,1,7] Explanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then the answer is [2,3,5,4,1,7]. Example 2: Input: nums = [1,2,3,4,4,3,2,1], n = 4 Output: [1,4,2,3,3,2,4,1] Example 3: Input: nums = [1,1,2,2], n = 2 Output: [1,2,1,2] My Solution -</description>
+    </item>
+    
     <item>
       <title>December_week_1_bonus</title>
       <link>https://www.chinmaymishra.me/leetcode/december_week_1_bonus/</link>
@@ -35,7 +76,7 @@ class Solution(object): def maxDepth(self, root): &amp;#34;&amp;#34;&amp;#34; :t
       <pubDate>Sat, 24 Oct 2020 13:00:07 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/leetcode/</guid>
-      <description>Leetcode 1 [Link to the question] (https://leetcode.com/problems/two-sum/ &amp;ldquo;2 Sum&amp;rdquo;)
+      <description>Leetcode 1 Link to the question
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order. Example 1: Input: nums = [2,7,11,15], target = 9 Output: [0,1] Output: Because nums[0] + nums[1] == 9, we return [0, 1].</description>
     </item>
     

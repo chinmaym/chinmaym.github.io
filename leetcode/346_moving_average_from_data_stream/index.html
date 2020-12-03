@@ -10,28 +10,28 @@
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="665_non_decreasing_array"/>
-<meta name="twitter:description" content="Leetcode 665 Link to the question
-Given an array nums with n integers, your task is to check if it could become non-decreasing by modifying at most 1 element. We define an array is non-decreasing if nums[i] &lt;= nums[i &#43; 1] holds for every i (0-based) such that (0 &lt;= i &lt;= n - 2). Example 1: Input: nums = [4,2,3] Output: true Explanation: You could modify the first 4 to 1 to get a non-decreasing array."/>
+<meta name="twitter:title" content="346_moving_average_from_data_stream"/>
+<meta name="twitter:description" content="Leetcode 346 Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window. Example: MovingAverage m = new MovingAverage(3); m.next(1) = 1 m.next(10) = (1 &#43; 10) / 2 m.next(3) = (1 &#43; 10 &#43; 3) / 3 m.next(5) = (10 &#43; 3 &#43; 5) / 3 My solution -
+class MovingAverage: def __init__(self, size: int): &#34;&#34;&#34; Initialize your data structure here."/>
 
-    <meta property="og:title" content="665_non_decreasing_array" />
-<meta property="og:description" content="Leetcode 665 Link to the question
-Given an array nums with n integers, your task is to check if it could become non-decreasing by modifying at most 1 element. We define an array is non-decreasing if nums[i] &lt;= nums[i &#43; 1] holds for every i (0-based) such that (0 &lt;= i &lt;= n - 2). Example 1: Input: nums = [4,2,3] Output: true Explanation: You could modify the first 4 to 1 to get a non-decreasing array." />
+    <meta property="og:title" content="346_moving_average_from_data_stream" />
+<meta property="og:description" content="Leetcode 346 Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window. Example: MovingAverage m = new MovingAverage(3); m.next(1) = 1 m.next(10) = (1 &#43; 10) / 2 m.next(3) = (1 &#43; 10 &#43; 3) / 3 m.next(5) = (10 &#43; 3 &#43; 5) / 3 My solution -
+class MovingAverage: def __init__(self, size: int): &#34;&#34;&#34; Initialize your data structure here." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.chinmaymishra.me/leetcode/665_non_decreasing_array/" />
-<meta property="article:published_time" content="2020-04-12T03:05:53-07:00" />
-<meta property="article:modified_time" content="2020-04-12T03:05:53-07:00" />
+<meta property="og:url" content="https://www.chinmaymishra.me/leetcode/346_moving_average_from_data_stream/" />
+<meta property="article:published_time" content="2020-12-02T23:19:39-08:00" />
+<meta property="article:modified_time" content="2020-12-02T23:19:39-08:00" />
 
 
     
-      <base href="https://www.chinmaymishra.me/leetcode/665_non_decreasing_array/">
+      <base href="https://www.chinmaymishra.me/leetcode/346_moving_average_from_data_stream/">
     
     <title>
-  665_non_decreasing_array · Chinmay Mishra
+  346_moving_average_from_data_stream · Chinmay Mishra
 </title>
 
     
-      <link rel="canonical" href="https://www.chinmaymishra.me/leetcode/665_non_decreasing_array/">
+      <link rel="canonical" href="https://www.chinmaymishra.me/leetcode/346_moving_average_from_data_stream/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -117,14 +117,14 @@ Given an array nums with n integers, your task is to check if it could become no
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">665_non_decreasing_array</h1>
+          <h1 class="title">346_moving_average_from_data_stream</h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
-              <time datetime='2020-04-12T03:05:53-07:00'>
-                April 12, 2020
+              <time datetime='2020-12-02T23:19:39-08:00'>
+                December 2, 2020
               </time>
             </span>
             <span class="reading-time">
@@ -138,61 +138,43 @@ Given an array nums with n integers, your task is to check if it could become no
 
           <div class="tags">
   <i class="fas fa-tag"></i>
-    <a href="https://www.chinmaymishra.me/tags/leetcode/">Leetcode</a></div>
+    <a href="https://www.chinmaymishra.me/tags/leetcode/">Leetcode</a>
+      <span class="separator">•</span>
+    <a href="https://www.chinmaymishra.me/tags/google/">Google</a></div>
 
         </div>
       </header>
 
       <div>
         
-        <h1 id="leetcode-665">Leetcode 665</h1>
-<p><a href="https://leetcode.com/problems/non-decreasing-array/" title="Non-decreasing Array">Link to the question</a></p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Given an array nums with n integers, your task is to check if it could become non-decreasing by modifying at most 1 element.
+        <h1 id="leetcode-346">Leetcode 346</h1>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window.
 
-We define an array is non-decreasing if nums[i] &lt;= nums[i + 1] holds for every i (0-based) such that (0 &lt;= i &lt;= n - 2).
+Example:
+MovingAverage m = new MovingAverage(3);
+m.next(1) = 1
+m.next(10) = (1 + 10) / 2
+m.next(3) = (1 + 10 + 3) / 3
+m.next(5) = (10 + 3 + 5) / 3
 
-Example 1:
-
-Input: nums = [4,2,3]
-Output: true
-Explanation: You could modify the first 4 to 1 to get a non-decreasing array.
-
-Example 2:
-
-Input: nums = [4,2,1]
-Output: false
-Explanation: You can&#39;t get a non-decreasing array by modify at most one element.
 </code></pre></div><p>My solution -</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#fff;font-weight:bold">class</span> Solution(<span style="color:#fff;font-weight:bold">object</span>):
-    <span style="color:#fff;font-weight:bold">def</span> checkPossibility(self, nums):
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#fff;font-weight:bold">class</span> MovingAverage:
+
+    <span style="color:#fff;font-weight:bold">def</span> __init__(self, size: <span style="color:#fff;font-weight:bold">int</span>):
         <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
-</span><span style="color:#0ff;font-weight:bold">        :type nums: List[int]
-</span><span style="color:#0ff;font-weight:bold">        :rtype: bool
+</span><span style="color:#0ff;font-weight:bold">        Initialize your data structure here.
 </span><span style="color:#0ff;font-weight:bold">        &#34;&#34;&#34;</span>
-        <span style="color:#fff;font-weight:bold">if</span> <span style="color:#fff;font-weight:bold">len</span>(nums) &lt; <span style="color:#ff0;font-weight:bold">2</span>:
-            <span style="color:#fff;font-weight:bold">return</span> True
-        i = <span style="color:#ff0;font-weight:bold">0</span>
-        j = <span style="color:#fff;font-weight:bold">len</span>(nums)-<span style="color:#ff0;font-weight:bold">1</span>
-        minVal = -<span style="color:#ff0;font-weight:bold">1</span>*(<span style="color:#ff0;font-weight:bold">99</span>**<span style="color:#ff0;font-weight:bold">99</span>)
-        maxVal = <span style="color:#ff0;font-weight:bold">99</span>**<span style="color:#ff0;font-weight:bold">99</span>
-        <span style="color:#fff;font-weight:bold">while</span> i &lt; <span style="color:#fff;font-weight:bold">len</span>(nums)-<span style="color:#ff0;font-weight:bold">1</span>:
-            <span style="color:#fff;font-weight:bold">if</span> nums[i] &lt;= nums[i+<span style="color:#ff0;font-weight:bold">1</span>]:
-                minVal = nums[i]
-                i += <span style="color:#ff0;font-weight:bold">1</span>
-            <span style="color:#fff;font-weight:bold">else</span>:
-                <span style="color:#fff;font-weight:bold">break</span>
-        <span style="color:#fff;font-weight:bold">while</span> j&gt; <span style="color:#ff0;font-weight:bold">0</span>:
-            <span style="color:#fff;font-weight:bold">if</span> nums[j] &gt;= nums[j-<span style="color:#ff0;font-weight:bold">1</span>]:
-                maxVal = nums[j]
-                j-=<span style="color:#ff0;font-weight:bold">1</span>
-            <span style="color:#fff;font-weight:bold">else</span>:
-                <span style="color:#fff;font-weight:bold">break</span>
-        
-        <span style="color:#fff;font-weight:bold">if</span> i==j-<span style="color:#ff0;font-weight:bold">1</span> and (nums[j] &gt; minVal or nums[i] &lt; maxVal):
-            <span style="color:#fff;font-weight:bold">return</span> True
-        <span style="color:#fff;font-weight:bold">if</span> i &gt; j:
-            <span style="color:#fff;font-weight:bold">return</span> True
-        <span style="color:#fff;font-weight:bold">return</span> False
+        self.size = size
+        self.window = []
+        self.sum = <span style="color:#ff0;font-weight:bold">0</span>
+
+    <span style="color:#fff;font-weight:bold">def</span> next(self, val: <span style="color:#fff;font-weight:bold">int</span>) -&gt; <span style="color:#fff;font-weight:bold">float</span>:
+        <span style="color:#fff;font-weight:bold">if</span> <span style="color:#fff;font-weight:bold">len</span>(self.window) == self.size:
+            pop_val = self.window.pop(<span style="color:#ff0;font-weight:bold">0</span>)
+            self.sum -= pop_val
+        self.window.append(val)
+        self.sum += val
+        <span style="color:#fff;font-weight:bold">return</span> self.sum/<span style="color:#fff;font-weight:bold">len</span>(self.window)
 </code></pre></div>
       </div>
 

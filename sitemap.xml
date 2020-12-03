@@ -3,42 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.chinmaymishra.me/leetcode/346_moving_average_from_data_stream/</loc>
+    <lastmod>2020-12-02T23:19:39-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.chinmaymishra.me/categories/</loc>
-    <lastmod>2020-12-02T01:21:46-08:00</lastmod>
+    <lastmod>2020-12-02T23:19:39-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.chinmaymishra.me/</loc>
-    <lastmod>2020-12-02T01:21:46-08:00</lastmod>
+    <lastmod>2020-12-02T23:19:39-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.chinmaymishra.me/tags/december-challenge/</loc>
-    <lastmod>2020-12-02T01:21:46-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chinmaymishra.me/leetcode/december_week_1_bonus/</loc>
-    <lastmod>2020-12-02T01:21:46-08:00</lastmod>
+    <loc>https://www.chinmaymishra.me/tags/google/</loc>
+    <lastmod>2020-12-02T23:19:39-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.chinmaymishra.me/tags/leetcode/</loc>
-    <lastmod>2020-12-02T01:21:46-08:00</lastmod>
+    <lastmod>2020-12-02T23:19:39-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.chinmaymishra.me/categories/leetcode/</loc>
-    <lastmod>2020-12-02T01:21:46-08:00</lastmod>
+    <lastmod>2020-12-02T23:19:39-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.chinmaymishra.me/leetcode/</loc>
-    <lastmod>2020-12-02T01:21:46-08:00</lastmod>
+    <lastmod>2020-12-02T23:19:39-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.chinmaymishra.me/tags/</loc>
+    <lastmod>2020-12-02T23:19:39-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chinmaymishra.me/leetcode/1021_remove_outermost_parentheses/</loc>
+    <lastmod>2020-12-02T23:16:16-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chinmaymishra.me/tags/december-challenge/</loc>
+    <lastmod>2020-12-02T23:10:08-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chinmaymishra.me/leetcode/december_day_2/</loc>
+    <lastmod>2020-12-02T23:10:08-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chinmaymishra.me/leetcode/leetcode/</loc>
+    <lastmod>2020-12-02T18:36:57-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.chinmaymishra.me/leetcode/december_week_1_bonus/</loc>
     <lastmod>2020-12-02T01:21:46-08:00</lastmod>
   </url>
   
@@ -175,10 +200,6 @@
   <url>
     <loc>https://www.chinmaymishra.me/posts/hello_world_post/</loc>
     <lastmod>2020-04-06T01:48:11-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chinmaymishra.me/posts/linked_list_implementation_go/</loc>
   </url>
   
   <url>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on Chinmay Mishra</title>
+    <link>https://www.chinmaymishra.me/tags/google/</link>
+    <description>Recent content in Google on Chinmay Mishra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 02 Dec 2020 23:19:39 -0800</lastBuildDate><atom:link href="https://www.chinmaymishra.me/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>346_moving_average_from_data_stream</title>
+      <link>https://www.chinmaymishra.me/leetcode/346_moving_average_from_data_stream/</link>
+      <pubDate>Wed, 02 Dec 2020 23:19:39 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/346_moving_average_from_data_stream/</guid>
+      <description>Leetcode 346 Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window. Example: MovingAverage m = new MovingAverage(3); m.next(1) = 1 m.next(10) = (1 + 10) / 2 m.next(3) = (1 + 10 + 3) / 3 m.next(5) = (10 + 3 + 5) / 3 My solution -
+class MovingAverage: def __init__(self, size: int): &amp;#34;&amp;#34;&amp;#34; Initialize your data structure here.</description>
+    </item>
+    
+    <item>
+      <title>1021_remove_outermost_parentheses</title>
+      <link>https://www.chinmaymishra.me/leetcode/1021_remove_outermost_parentheses/</link>
+      <pubDate>Wed, 02 Dec 2020 23:16:16 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/1021_remove_outermost_parentheses/</guid>
+      <description>Leetcode 1021 Link to the question
+A valid parentheses string is either empty (&amp;#34;&amp;#34;), &amp;#34;(&amp;#34; + A + &amp;#34;)&amp;#34;, or A + B, where A and B are valid parentheses strings, and + represents string concatenation. For example, &amp;#34;&amp;#34;, &amp;#34;()&amp;#34;, &amp;#34;(())()&amp;#34;, and &amp;#34;(()(()))&amp;#34; are all valid parentheses strings. A valid parentheses string S is primitive if it is nonempty, and there does not exist a way to split it into S = A+B, with A and B nonempty valid parentheses strings.</description>
+    </item>
+    
+    <item>
+      <title>1470_shuffle_the_array</title>
+      <link>https://www.chinmaymishra.me/leetcode/leetcode/</link>
+      <pubDate>Wed, 02 Dec 2020 18:36:57 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/leetcode/</guid>
+      <description>Leetcode 1470 Link to the question
+Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn]. Return the array in the form [x1,y1,x2,y2,...,xn,yn]. Example 1: Input: nums = [2,5,1,3,4,7], n = 3 Output: [2,3,5,4,1,7] Explanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then the answer is [2,3,5,4,1,7]. Example 2: Input: nums = [1,2,3,4,4,3,2,1], n = 4 Output: [1,4,2,3,3,2,4,1] Example 3: Input: nums = [1,1,2,2], n = 2 Output: [1,2,1,2] My Solution -</description>
+    </item>
+    
+  </channel>
+</rss>
