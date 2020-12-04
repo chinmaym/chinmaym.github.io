@@ -6,7 +6,17 @@
     <description>Recent content in Leetcode on Chinmay Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Dec 2020 23:43:57 -0800</lastBuildDate><atom:link href="https://www.chinmaymishra.me/categories/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Dec 2020 23:55:11 -0800</lastBuildDate><atom:link href="https://www.chinmaymishra.me/categories/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>359_logger_rate_limiter</title>
+      <link>https://www.chinmaymishra.me/leetcode/359_logger_rate_limiter/</link>
+      <pubDate>Thu, 03 Dec 2020 23:55:11 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/359_logger_rate_limiter/</guid>
+      <description>Leetcode 359 Link to the question
+Design a logger system that receive stream of messages along with its timestamps, each message should be printed if and only if it is not printed in the last 10 seconds. Given a message and a timestamp (in seconds granularity), return true if the message should be printed in the given timestamp, otherwise returns false. It is possible that several messages arrive roughly at the same time.</description>
+    </item>
+    
     <item>
       <title>December_day_3</title>
       <link>https://www.chinmaymishra.me/leetcode/december_day_3/</link>
