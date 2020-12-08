@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trees on Chinmay Mishra</title>
+    <link>https://www.chinmaymishra.me/tags/trees/</link>
+    <description>Recent content in Trees on Chinmay Mishra</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 08 Dec 2020 00:16:11 -0800</lastBuildDate><atom:link href="https://www.chinmaymishra.me/tags/trees/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>December_day_6</title>
+      <link>https://www.chinmaymishra.me/leetcode/december_day_6/</link>
+      <pubDate>Tue, 08 Dec 2020 00:16:11 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/december_day_6/</guid>
+      <description>Leetcode December Challenge Day 6 Link to the question
+Solution to the question
+&amp;#34;&amp;#34;&amp;#34; # Definition for a Node. class Node: def __init__(self, val: int = 0, left: &amp;#39;Node&amp;#39; = None, right: &amp;#39;Node&amp;#39; = None, next: &amp;#39;Node&amp;#39; = None): self.val = val self.left = left self.right = right self.next = next &amp;#34;&amp;#34;&amp;#34; class Solution: def connect(self, root: &amp;#39;Node&amp;#39;) -&amp;gt; &amp;#39;Node&amp;#39;: if root == None: return None self.connect(root.left) self.connect(root.right) self.connectInner(root.left, root.right) return root def connectInner(self, leftChild, rightChild): if leftChild !</description>
+    </item>
+    
+  </channel>
+</rss>

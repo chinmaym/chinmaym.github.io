@@ -10,28 +10,30 @@
     <meta name="keywords" content="blog,developer,personal">
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="1_two_sum"/>
-<meta name="twitter:description" content="Leetcode 1 Link to the question
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order. Example 1: Input: nums = [2,7,11,15], target = 9 Output: [0,1] Output: Because nums[0] &#43; nums[1] == 9, we return [0, 1]."/>
+<meta name="twitter:title" content="December_day_5"/>
+<meta name="twitter:description" content="Leetcode December Challenge Day 5 Link to the question
+Solution to the question
+class Solution(object): def canPlaceFlowers(self, flowerbed, n): &#34;&#34;&#34; :type flowerbed: List[int] :type n: int :rtype: bool &#34;&#34;&#34; cur=0 prev=-10 while cur &lt; len(flowerbed)-1: if flowerbed[cur] != 1 and (cur - prev &gt; 1) and (flowerbed[cur&#43;1]) != 1: flowerbed[cur] = 1 prev = cur n -= 1 elif flowerbed[cur] == 1: prev = cur cur &#43;= 1 if n == 1 and (cur - prev &gt; 1) and flowerbed[cur] !"/>
 
-    <meta property="og:title" content="1_two_sum" />
-<meta property="og:description" content="Leetcode 1 Link to the question
-Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order. Example 1: Input: nums = [2,7,11,15], target = 9 Output: [0,1] Output: Because nums[0] &#43; nums[1] == 9, we return [0, 1]." />
+    <meta property="og:title" content="December_day_5" />
+<meta property="og:description" content="Leetcode December Challenge Day 5 Link to the question
+Solution to the question
+class Solution(object): def canPlaceFlowers(self, flowerbed, n): &#34;&#34;&#34; :type flowerbed: List[int] :type n: int :rtype: bool &#34;&#34;&#34; cur=0 prev=-10 while cur &lt; len(flowerbed)-1: if flowerbed[cur] != 1 and (cur - prev &gt; 1) and (flowerbed[cur&#43;1]) != 1: flowerbed[cur] = 1 prev = cur n -= 1 elif flowerbed[cur] == 1: prev = cur cur &#43;= 1 if n == 1 and (cur - prev &gt; 1) and flowerbed[cur] !" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.chinmaymishra.me/leetcode/leetcode/" />
-<meta property="article:published_time" content="2020-10-24T13:00:07-07:00" />
-<meta property="article:modified_time" content="2020-10-24T13:00:07-07:00" />
+<meta property="og:url" content="https://www.chinmaymishra.me/leetcode/december_day_5/" />
+<meta property="article:published_time" content="2020-12-08T00:14:00-08:00" />
+<meta property="article:modified_time" content="2020-12-08T00:14:00-08:00" />
 
 
     
-      <base href="https://www.chinmaymishra.me/leetcode/leetcode/">
+      <base href="https://www.chinmaymishra.me/leetcode/december_day_5/">
     
     <title>
-  1_two_sum · Chinmay Mishra
+  December_day_5 · Chinmay Mishra
 </title>
 
     
-      <link rel="canonical" href="https://www.chinmaymishra.me/leetcode/leetcode/">
+      <link rel="canonical" href="https://www.chinmaymishra.me/leetcode/december_day_5/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -117,14 +119,14 @@ Given an array of integers nums and an integer target, return indices of the two
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">1_two_sum</h1>
+          <h1 class="title">December_day_5</h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
-              <time datetime='2020-10-24T13:00:07-07:00'>
-                October 24, 2020
+              <time datetime='2020-12-08T00:14:00-08:00'>
+                December 8, 2020
               </time>
             </span>
             <span class="reading-time">
@@ -138,47 +140,40 @@ Given an array of integers nums and an integer target, return indices of the two
 
           <div class="tags">
   <i class="fas fa-tag"></i>
-    <a href="https://www.chinmaymishra.me/tags/leetcode/">Leetcode</a></div>
+    <a href="https://www.chinmaymishra.me/tags/leetcode/">Leetcode</a>
+      <span class="separator">•</span>
+    <a href="https://www.chinmaymishra.me/tags/december-challenge/">December Challenge</a></div>
 
         </div>
       </header>
 
       <div>
         
-        <h1 id="leetcode-1">Leetcode 1</h1>
-<p><a href="https://leetcode.com/problems/two-sum/" title="2 Sum">Link to the question</a></p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-
-You can return the answer in any order.
-
-Example 1:
-
-Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
-Output: Because nums[0] + nums[1] == 9, we return [0, 1].
-
-Example 2:
-
-Input: nums = [3,2,4], target = 6
-Output: [1,2]
-
-Example 3:
-
-Input: nums = [3,3], target = 6
-Output: [0,1]
-</code></pre></div><p>My solution -</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#fff;font-weight:bold">func</span> twoSum(nums []<span style="color:#fff;font-weight:bold">int</span>, target <span style="color:#fff;font-weight:bold">int</span>) []<span style="color:#fff;font-weight:bold">int</span> {
-    diffMap := <span style="color:#fff;font-weight:bold">make</span>(<span style="color:#fff;font-weight:bold">map</span>[<span style="color:#fff;font-weight:bold">int</span>]<span style="color:#fff;font-weight:bold">int</span>)
-    <span style="color:#fff;font-weight:bold">for</span> i:=<span style="color:#ff0;font-weight:bold">0</span>; i &lt; <span style="color:#fff;font-weight:bold">len</span>(nums); i++ {
-        <span style="color:#fff;font-weight:bold">if</span> val, ok:= diffMap[nums[i]]; ok {
-            <span style="color:#fff;font-weight:bold">return</span> []<span style="color:#fff;font-weight:bold">int</span>{val, i}
-        }
-        diffMap[target - nums[i]] = i
-    }
-    <span style="color:#fff;font-weight:bold">return</span> []<span style="color:#fff;font-weight:bold">int</span>{-<span style="color:#ff0;font-weight:bold">1</span>, -<span style="color:#ff0;font-weight:bold">1</span>}
-}
+        <h1 id="leetcode-december-challenge-day-5">Leetcode December Challenge Day 5</h1>
+<p><a href="https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3555/" title="Day 5">Link to the question</a></p>
+<p>Solution to the question</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#fff;font-weight:bold">class</span> Solution(<span style="color:#fff;font-weight:bold">object</span>):
+    <span style="color:#fff;font-weight:bold">def</span> canPlaceFlowers(self, flowerbed, n):
+        <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
+</span><span style="color:#0ff;font-weight:bold">        :type flowerbed: List[int]
+</span><span style="color:#0ff;font-weight:bold">        :type n: int
+</span><span style="color:#0ff;font-weight:bold">        :rtype: bool
+</span><span style="color:#0ff;font-weight:bold">        &#34;&#34;&#34;</span>
+        cur=<span style="color:#ff0;font-weight:bold">0</span>
+        prev=-<span style="color:#ff0;font-weight:bold">10</span>
+        <span style="color:#fff;font-weight:bold">while</span> cur &lt; <span style="color:#fff;font-weight:bold">len</span>(flowerbed)-<span style="color:#ff0;font-weight:bold">1</span>:
+            <span style="color:#fff;font-weight:bold">if</span> flowerbed[cur] != <span style="color:#ff0;font-weight:bold">1</span> and (cur - prev &gt; <span style="color:#ff0;font-weight:bold">1</span>) and (flowerbed[cur+<span style="color:#ff0;font-weight:bold">1</span>]) != <span style="color:#ff0;font-weight:bold">1</span>:
+                flowerbed[cur] = <span style="color:#ff0;font-weight:bold">1</span>
+                prev = cur
+                n -= <span style="color:#ff0;font-weight:bold">1</span>
+            <span style="color:#fff;font-weight:bold">elif</span> flowerbed[cur] == <span style="color:#ff0;font-weight:bold">1</span>:
+                prev = cur
+            cur += <span style="color:#ff0;font-weight:bold">1</span>
+        <span style="color:#fff;font-weight:bold">if</span> n == <span style="color:#ff0;font-weight:bold">1</span> and (cur - prev &gt; <span style="color:#ff0;font-weight:bold">1</span>) and flowerbed[cur] != <span style="color:#ff0;font-weight:bold">1</span>:
+            <span style="color:#fff;font-weight:bold">return</span> True
+        <span style="color:#fff;font-weight:bold">if</span> n &gt; <span style="color:#ff0;font-weight:bold">0</span>:
+            <span style="color:#fff;font-weight:bold">return</span> False
+        <span style="color:#fff;font-weight:bold">return</span> True
 </code></pre></div>
       </div>
 

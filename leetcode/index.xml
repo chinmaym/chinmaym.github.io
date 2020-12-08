@@ -6,7 +6,51 @@
     <description>Recent content in Leetcodes on Chinmay Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Dec 2020 23:55:11 -0800</lastBuildDate><atom:link href="https://www.chinmaymishra.me/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Dec 2020 00:24:52 -0800</lastBuildDate><atom:link href="https://www.chinmaymishra.me/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>December_day_7</title>
+      <link>https://www.chinmaymishra.me/leetcode/december_day_7/</link>
+      <pubDate>Tue, 08 Dec 2020 00:24:52 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/december_day_7/</guid>
+      <description>Leetcode December Challenge Day 7 Link to the question
+Solution -
+class Solution(object): def generateMatrix(self, n): &amp;#34;&amp;#34;&amp;#34; :type n: int :rtype: List[List[int]] &amp;#34;&amp;#34;&amp;#34; ret = [[0 for i in range(n)] for i in range(n)] a = 1 for i in range(n/2+1): for j in range(i, n-i): ret[i][j] = a a +=1 for k in range(i+1, n-i): ret[k][j] = a a += 1 for l in range(j-1, i-1, -1): ret[j][l] = a a += 1 for m in range(j-1, i, -1): ret[m][i] = a a += 1 return ret </description>
+    </item>
+    
+    <item>
+      <title>December_day_6</title>
+      <link>https://www.chinmaymishra.me/leetcode/december_day_6/</link>
+      <pubDate>Tue, 08 Dec 2020 00:16:11 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/december_day_6/</guid>
+      <description>Leetcode December Challenge Day 6 Link to the question
+Solution to the question
+&amp;#34;&amp;#34;&amp;#34; # Definition for a Node. class Node: def __init__(self, val: int = 0, left: &amp;#39;Node&amp;#39; = None, right: &amp;#39;Node&amp;#39; = None, next: &amp;#39;Node&amp;#39; = None): self.val = val self.left = left self.right = right self.next = next &amp;#34;&amp;#34;&amp;#34; class Solution: def connect(self, root: &amp;#39;Node&amp;#39;) -&amp;gt; &amp;#39;Node&amp;#39;: if root == None: return None self.connect(root.left) self.connect(root.right) self.connectInner(root.left, root.right) return root def connectInner(self, leftChild, rightChild): if leftChild !</description>
+    </item>
+    
+    <item>
+      <title>December_day_5</title>
+      <link>https://www.chinmaymishra.me/leetcode/december_day_5/</link>
+      <pubDate>Tue, 08 Dec 2020 00:14:00 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/december_day_5/</guid>
+      <description>Leetcode December Challenge Day 5 Link to the question
+Solution to the question
+class Solution(object): def canPlaceFlowers(self, flowerbed, n): &amp;#34;&amp;#34;&amp;#34; :type flowerbed: List[int] :type n: int :rtype: bool &amp;#34;&amp;#34;&amp;#34; cur=0 prev=-10 while cur &amp;lt; len(flowerbed)-1: if flowerbed[cur] != 1 and (cur - prev &amp;gt; 1) and (flowerbed[cur+1]) != 1: flowerbed[cur] = 1 prev = cur n -= 1 elif flowerbed[cur] == 1: prev = cur cur += 1 if n == 1 and (cur - prev &amp;gt; 1) and flowerbed[cur] !</description>
+    </item>
+    
+    <item>
+      <title>December_day_4</title>
+      <link>https://www.chinmaymishra.me/leetcode/december_day_4/</link>
+      <pubDate>Tue, 08 Dec 2020 00:12:05 -0800</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/leetcode/december_day_4/</guid>
+      <description>Leetcode December Challenge Day 4 Link to the question
+Solution to the question
+class Solution(object): def kthFactor(self, n, k): &amp;#34;&amp;#34;&amp;#34; :type n: int :type k: int :rtype: int &amp;#34;&amp;#34;&amp;#34; i = 1 while i&amp;lt;=n: if n%i == 0: k -= 1 if k == 0: return i i += 1 return -1 </description>
+    </item>
+    
     <item>
       <title>359_logger_rate_limiter</title>
       <link>https://www.chinmaymishra.me/leetcode/359_logger_rate_limiter/</link>
