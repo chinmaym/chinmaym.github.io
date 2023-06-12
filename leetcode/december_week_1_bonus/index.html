@@ -20,9 +20,10 @@ class Solution(object): def shortestDistance(self, words, word1, word2): &#34;&#
 Solution
 class Solution(object): def shortestDistance(self, words, word1, word2): &#34;&#34;&#34; :type words: List[str] :type word1: str :type word2: str :rtype: int &#34;&#34;&#34; val1 = val2 = None dist = len(words) for i in range(len(words)): if words[i] == word1: val1 = i if words[i] == word2: val2 = i if val1 != None and val2 != None: dist = min(dist,abs(val1-val2)) return dist " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.chinmaymishra.me/leetcode/december_week_1_bonus/" />
+<meta property="og:url" content="https://www.chinmaymishra.me/leetcode/december_week_1_bonus/" /><meta property="article:section" content="leetcode" />
 <meta property="article:published_time" content="2020-12-02T01:21:46-08:00" />
 <meta property="article:modified_time" content="2020-12-02T01:21:46-08:00" />
+
 
 
     
@@ -43,7 +44,7 @@ class Solution(object): def shortestDistance(self, words, word1, word2): &#34;&#
     
       
       
-      <link rel="stylesheet" href="https://www.chinmaymishra.me/css/coder.min.e794c12e85571424ebb4e70a43a1236a78325b43d749ca389997b59d947b2984.css" integrity="sha256-55TBLoVXFCTrtOcKQ6EjangyW0PXSco4mZe1nZR7KYQ=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://www.chinmaymishra.me/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -65,7 +66,7 @@ class Solution(object): def shortestDistance(self, words, word1, word2): &#34;&#
     <link rel="icon" type="image/png" href="https://www.chinmaymishra.me/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.chinmaymishra.me/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.77.0-DEV" />
+    <meta name="generator" content="Hugo 0.111.3">
   </head>
 
   
@@ -87,6 +88,10 @@ class Solution(object): def shortestDistance(self, words, word1, word2): &#34;&#
         
           <li class="navigation-item">
             <a class="navigation-link" href="https://www.chinmaymishra.me/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.chinmaymishra.me/files/chinmay_mishra_resume.pdf">Resume</a>
           </li>
         
           <li class="navigation-item">
@@ -115,77 +120,37 @@ class Solution(object): def shortestDistance(self, words, word1, word2): &#34;&#
 
       <div class="content">
         
-  <section class="container post">
-    <article>
-      <header>
-        <div class="post-title">
-          <h1 class="title">December_week_1_bonus</h1>
-        </div>
-        <div class="post-meta">
-          <div class="date">
-            <span class="posted-on">
-              <i class="fas fa-calendar"></i>
-              <time datetime='2020-12-02T01:21:46-08:00'>
-                December 2, 2020
-              </time>
-            </span>
-            <span class="reading-time">
-              <i class="fas fa-clock"></i>
-              1-minute read
-            </span>
-          </div>
-          <div class="categories">
-  <i class="fas fa-folder"></i>
-    <a href="https://www.chinmaymishra.me/categories/leetcode/">Leetcode</a></div>
+  <section class="container page">
+  <article>
+    <header>
+      <h1>December_week_1_bonus</h1>
+    </header>
 
-          <div class="tags">
-  <i class="fas fa-tag"></i>
-    <a href="https://www.chinmaymishra.me/tags/leetcode/">Leetcode</a>
-      <span class="separator">•</span>
-    <a href="https://www.chinmaymishra.me/tags/december-challenge/">December Challenge</a></div>
-
-        </div>
-      </header>
-
-      <div>
-        
-        <h1 id="leetcode-december-challenge-day-1">Leetcode December Challenge Day 1</h1>
+    <h1 id="leetcode-december-challenge-day-1">Leetcode December Challenge Day 1</h1>
 <p><a href="https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3550/" title="Shortest Word Distance">Link to the question</a></p>
 <p>Solution</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#fff;font-weight:bold">class</span> Solution(<span style="color:#fff;font-weight:bold">object</span>):
-    <span style="color:#fff;font-weight:bold">def</span> shortestDistance(self, words, word1, word2):
-        <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
-</span><span style="color:#0ff;font-weight:bold">        :type words: List[str]
-</span><span style="color:#0ff;font-weight:bold">        :type word1: str
-</span><span style="color:#0ff;font-weight:bold">        :type word2: str
-</span><span style="color:#0ff;font-weight:bold">        :rtype: int
-</span><span style="color:#0ff;font-weight:bold">        &#34;&#34;&#34;</span>
-        val1 = val2 = None
-        dist = <span style="color:#fff;font-weight:bold">len</span>(words)
-        <span style="color:#fff;font-weight:bold">for</span> i in <span style="color:#fff;font-weight:bold">range</span>(<span style="color:#fff;font-weight:bold">len</span>(words)):
-            <span style="color:#fff;font-weight:bold">if</span> words[i] == word1:
-                val1 = i
-            <span style="color:#fff;font-weight:bold">if</span> words[i] == word2:
-                val2 = i
-            <span style="color:#fff;font-weight:bold">if</span> val1 != None and val2 != None:
-                dist = <span style="color:#fff;font-weight:bold">min</span>(dist,<span style="color:#fff;font-weight:bold">abs</span>(val1-val2)) 
-        <span style="color:#fff;font-weight:bold">return</span> dist
-</code></pre></div>
-      </div>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">class</span> Solution(<span style="color:#fff;font-weight:bold">object</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">def</span> shortestDistance(self, words, word1, word2):
+</span></span><span style="display:flex;"><span>        <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :type words: List[str]
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :type word1: str
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :type word2: str
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :rtype: int
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        val1 = val2 = <span style="color:#fff;font-weight:bold">None</span>
+</span></span><span style="display:flex;"><span>        dist = <span style="color:#fff;font-weight:bold">len</span>(words)
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> i in <span style="color:#fff;font-weight:bold">range</span>(<span style="color:#fff;font-weight:bold">len</span>(words)):
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">if</span> words[i] == word1:
+</span></span><span style="display:flex;"><span>                val1 = i
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">if</span> words[i] == word2:
+</span></span><span style="display:flex;"><span>                val2 = i
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">if</span> val1 != <span style="color:#fff;font-weight:bold">None</span> and val2 != <span style="color:#fff;font-weight:bold">None</span>:
+</span></span><span style="display:flex;"><span>                dist = <span style="color:#fff;font-weight:bold">min</span>(dist,<span style="color:#fff;font-weight:bold">abs</span>(val1-val2)) 
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">return</span> dist
+</span></span></code></pre></div>
+  </article>
+</section>
 
-
-      <footer>
-        
-
-
-        
-        
-        
-      </footer>
-    </article>
-
-    
-  </section>
 
       </div>
 
@@ -200,7 +165,7 @@ class Solution(object): def shortestDistance(self, words, word1, word2): &#34;&#
         
           2019 -
         
-        2020
+        2023
          Chinmay Mishra 
       
       
@@ -226,7 +191,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
     <script>
 (function(f, a, t, h, o, m){

@@ -1,244 +1,151 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://www.chinmaymishra.me/categories/</loc>
-    <lastmod>2020-12-08T00:24:52-08:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://www.chinmaymishra.me/</loc>
+    <lastmod>2023-06-11T14:06:16-07:00</lastmod>
+  </url><url>
+    <loc>https://www.chinmaymishra.me/posts/</loc>
+    <lastmod>2023-06-11T14:06:16-07:00</lastmod>
+  </url><url>
+    <loc>https://www.chinmaymishra.me/posts/restart/</loc>
+    <lastmod>2023-06-11T14:06:16-07:00</lastmod>
+  </url><url>
+    <loc>https://www.chinmaymishra.me/categories/</loc>
     <lastmod>2020-12-08T00:24:52-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/tags/december-challenge/</loc>
     <lastmod>2020-12-08T00:24:52-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/december_day_7/</loc>
     <lastmod>2020-12-08T00:24:52-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/tags/leetcode/</loc>
     <lastmod>2020-12-08T00:24:52-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/categories/leetcode/</loc>
     <lastmod>2020-12-08T00:24:52-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/</loc>
     <lastmod>2020-12-08T00:24:52-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/tags/</loc>
     <lastmod>2020-12-08T00:24:52-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/december_day_6/</loc>
     <lastmod>2020-12-08T00:16:11-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/tags/trees/</loc>
     <lastmod>2020-12-08T00:16:11-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/december_day_5/</loc>
     <lastmod>2020-12-08T00:14:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/december_day_4/</loc>
     <lastmod>2020-12-08T00:12:05-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/359_logger_rate_limiter/</loc>
     <lastmod>2020-12-03T23:55:11-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/tags/google/</loc>
     <lastmod>2020-12-03T23:55:11-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/december_day_3/</loc>
     <lastmod>2020-12-03T23:43:57-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/346_moving_average_from_data_stream/</loc>
     <lastmod>2020-12-02T23:19:39-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/1021_remove_outermost_parentheses/</loc>
     <lastmod>2020-12-02T23:16:16-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/december_day_2/</loc>
     <lastmod>2020-12-02T23:10:08-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/leetcode/</loc>
     <lastmod>2020-12-02T18:36:57-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/december_week_1_bonus/</loc>
     <lastmod>2020-12-02T01:21:46-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/december_day_1/</loc>
     <lastmod>2020-12-02T01:10:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/leetcode/</loc>
     <lastmod>2020-10-24T13:00:07-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/1389_create_target_array_in_given_order/</loc>
     <lastmod>2020-04-17T01:44:26-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/series/leetcode/</loc>
     <lastmod>2020-04-16T14:51:36-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/posts/leetcode_904/</loc>
     <lastmod>2020-04-16T14:51:36-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.chinmaymishra.me/posts/</loc>
-    <lastmod>2020-04-16T14:51:36-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/tags/python/</loc>
     <lastmod>2020-04-16T14:51:36-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/series/</loc>
     <lastmod>2020-04-16T14:51:36-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/series/data-structure/</loc>
     <lastmod>2020-04-16T10:06:30-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/categories/data-structure/</loc>
     <lastmod>2020-04-16T10:06:30-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/tags/go/</loc>
     <lastmod>2020-04-16T10:06:30-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/series/go/</loc>
     <lastmod>2020-04-16T10:06:30-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/tags/golang/</loc>
     <lastmod>2020-04-16T10:06:30-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/tags/trie/</loc>
     <lastmod>2020-04-16T10:06:30-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/posts/trie_implementation_go/</loc>
     <lastmod>2020-04-16T10:06:30-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/1342_number_of_steps_to_reduce_to_zero/</loc>
     <lastmod>2020-04-16T01:59:14-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/1403_minimum_subsequence_in_non_increasing_array/</loc>
     <lastmod>2020-04-16T01:55:48-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/1394_find_lucky_integer_in_an_array/</loc>
     <lastmod>2020-04-16T01:51:56-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/1408_string_matching_in_an_array/</loc>
     <lastmod>2020-04-15T02:03:50-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/1313_decompress-run-length-encoded-list/</loc>
     <lastmod>2020-04-14T02:10:42-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/1295_find-numbers-with-even-number-of-digits/</loc>
     <lastmod>2020-04-14T02:07:26-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/771_jewels_and_stone/</loc>
     <lastmod>2020-04-13T03:02:11-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/leetcode/</loc>
     <lastmod>2020-04-13T02:44:22-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/1281_subtract-the-product-and-sum-of-digits-of-an-integer/</loc>
     <lastmod>2020-04-13T02:12:28-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/665_non_decreasing_array/</loc>
     <lastmod>2020-04-12T03:05:53-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/leetcode/intro/</loc>
     <lastmod>2020-04-12T02:05:53-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/posts/hello_world_post/</loc>
     <lastmod>2020-04-06T01:48:11-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.chinmaymishra.me/about/</loc>
   </url>
-  
 </urlset>

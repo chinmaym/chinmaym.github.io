@@ -20,9 +20,10 @@ class Solution(object): def canPlaceFlowers(self, flowerbed, n): &#34;&#34;&#34;
 Solution to the question
 class Solution(object): def canPlaceFlowers(self, flowerbed, n): &#34;&#34;&#34; :type flowerbed: List[int] :type n: int :rtype: bool &#34;&#34;&#34; cur=0 prev=-10 while cur &lt; len(flowerbed)-1: if flowerbed[cur] != 1 and (cur - prev &gt; 1) and (flowerbed[cur&#43;1]) != 1: flowerbed[cur] = 1 prev = cur n -= 1 elif flowerbed[cur] == 1: prev = cur cur &#43;= 1 if n == 1 and (cur - prev &gt; 1) and flowerbed[cur] !" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.chinmaymishra.me/leetcode/december_day_5/" />
+<meta property="og:url" content="https://www.chinmaymishra.me/leetcode/december_day_5/" /><meta property="article:section" content="leetcode" />
 <meta property="article:published_time" content="2020-12-08T00:14:00-08:00" />
 <meta property="article:modified_time" content="2020-12-08T00:14:00-08:00" />
+
 
 
     
@@ -43,7 +44,7 @@ class Solution(object): def canPlaceFlowers(self, flowerbed, n): &#34;&#34;&#34;
     
       
       
-      <link rel="stylesheet" href="https://www.chinmaymishra.me/css/coder.min.e794c12e85571424ebb4e70a43a1236a78325b43d749ca389997b59d947b2984.css" integrity="sha256-55TBLoVXFCTrtOcKQ6EjangyW0PXSco4mZe1nZR7KYQ=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://www.chinmaymishra.me/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -65,7 +66,7 @@ class Solution(object): def canPlaceFlowers(self, flowerbed, n): &#34;&#34;&#34;
     <link rel="icon" type="image/png" href="https://www.chinmaymishra.me/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.chinmaymishra.me/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.77.0-DEV" />
+    <meta name="generator" content="Hugo 0.111.3">
   </head>
 
   
@@ -87,6 +88,10 @@ class Solution(object): def canPlaceFlowers(self, flowerbed, n): &#34;&#34;&#34;
         
           <li class="navigation-item">
             <a class="navigation-link" href="https://www.chinmaymishra.me/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.chinmaymishra.me/files/chinmay_mishra_resume.pdf">Resume</a>
           </li>
         
           <li class="navigation-item">
@@ -115,81 +120,41 @@ class Solution(object): def canPlaceFlowers(self, flowerbed, n): &#34;&#34;&#34;
 
       <div class="content">
         
-  <section class="container post">
-    <article>
-      <header>
-        <div class="post-title">
-          <h1 class="title">December_day_5</h1>
-        </div>
-        <div class="post-meta">
-          <div class="date">
-            <span class="posted-on">
-              <i class="fas fa-calendar"></i>
-              <time datetime='2020-12-08T00:14:00-08:00'>
-                December 8, 2020
-              </time>
-            </span>
-            <span class="reading-time">
-              <i class="fas fa-clock"></i>
-              1-minute read
-            </span>
-          </div>
-          <div class="categories">
-  <i class="fas fa-folder"></i>
-    <a href="https://www.chinmaymishra.me/categories/leetcode/">Leetcode</a></div>
+  <section class="container page">
+  <article>
+    <header>
+      <h1>December_day_5</h1>
+    </header>
 
-          <div class="tags">
-  <i class="fas fa-tag"></i>
-    <a href="https://www.chinmaymishra.me/tags/leetcode/">Leetcode</a>
-      <span class="separator">•</span>
-    <a href="https://www.chinmaymishra.me/tags/december-challenge/">December Challenge</a></div>
-
-        </div>
-      </header>
-
-      <div>
-        
-        <h1 id="leetcode-december-challenge-day-5">Leetcode December Challenge Day 5</h1>
+    <h1 id="leetcode-december-challenge-day-5">Leetcode December Challenge Day 5</h1>
 <p><a href="https://leetcode.com/explore/challenge/card/december-leetcoding-challenge/569/week-1-december-1st-december-7th/3555/" title="Day 5">Link to the question</a></p>
 <p>Solution to the question</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#fff;font-weight:bold">class</span> Solution(<span style="color:#fff;font-weight:bold">object</span>):
-    <span style="color:#fff;font-weight:bold">def</span> canPlaceFlowers(self, flowerbed, n):
-        <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
-</span><span style="color:#0ff;font-weight:bold">        :type flowerbed: List[int]
-</span><span style="color:#0ff;font-weight:bold">        :type n: int
-</span><span style="color:#0ff;font-weight:bold">        :rtype: bool
-</span><span style="color:#0ff;font-weight:bold">        &#34;&#34;&#34;</span>
-        cur=<span style="color:#ff0;font-weight:bold">0</span>
-        prev=-<span style="color:#ff0;font-weight:bold">10</span>
-        <span style="color:#fff;font-weight:bold">while</span> cur &lt; <span style="color:#fff;font-weight:bold">len</span>(flowerbed)-<span style="color:#ff0;font-weight:bold">1</span>:
-            <span style="color:#fff;font-weight:bold">if</span> flowerbed[cur] != <span style="color:#ff0;font-weight:bold">1</span> and (cur - prev &gt; <span style="color:#ff0;font-weight:bold">1</span>) and (flowerbed[cur+<span style="color:#ff0;font-weight:bold">1</span>]) != <span style="color:#ff0;font-weight:bold">1</span>:
-                flowerbed[cur] = <span style="color:#ff0;font-weight:bold">1</span>
-                prev = cur
-                n -= <span style="color:#ff0;font-weight:bold">1</span>
-            <span style="color:#fff;font-weight:bold">elif</span> flowerbed[cur] == <span style="color:#ff0;font-weight:bold">1</span>:
-                prev = cur
-            cur += <span style="color:#ff0;font-weight:bold">1</span>
-        <span style="color:#fff;font-weight:bold">if</span> n == <span style="color:#ff0;font-weight:bold">1</span> and (cur - prev &gt; <span style="color:#ff0;font-weight:bold">1</span>) and flowerbed[cur] != <span style="color:#ff0;font-weight:bold">1</span>:
-            <span style="color:#fff;font-weight:bold">return</span> True
-        <span style="color:#fff;font-weight:bold">if</span> n &gt; <span style="color:#ff0;font-weight:bold">0</span>:
-            <span style="color:#fff;font-weight:bold">return</span> False
-        <span style="color:#fff;font-weight:bold">return</span> True
-</code></pre></div>
-      </div>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-py" data-lang="py"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">class</span> Solution(<span style="color:#fff;font-weight:bold">object</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">def</span> canPlaceFlowers(self, flowerbed, n):
+</span></span><span style="display:flex;"><span>        <span style="color:#0ff;font-weight:bold">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :type flowerbed: List[int]
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :type n: int
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        :rtype: bool
+</span></span></span><span style="display:flex;"><span><span style="color:#0ff;font-weight:bold">        &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        cur=<span style="color:#ff0;font-weight:bold">0</span>
+</span></span><span style="display:flex;"><span>        prev=-<span style="color:#ff0;font-weight:bold">10</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">while</span> cur &lt; <span style="color:#fff;font-weight:bold">len</span>(flowerbed)-<span style="color:#ff0;font-weight:bold">1</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">if</span> flowerbed[cur] != <span style="color:#ff0;font-weight:bold">1</span> and (cur - prev &gt; <span style="color:#ff0;font-weight:bold">1</span>) and (flowerbed[cur+<span style="color:#ff0;font-weight:bold">1</span>]) != <span style="color:#ff0;font-weight:bold">1</span>:
+</span></span><span style="display:flex;"><span>                flowerbed[cur] = <span style="color:#ff0;font-weight:bold">1</span>
+</span></span><span style="display:flex;"><span>                prev = cur
+</span></span><span style="display:flex;"><span>                n -= <span style="color:#ff0;font-weight:bold">1</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">elif</span> flowerbed[cur] == <span style="color:#ff0;font-weight:bold">1</span>:
+</span></span><span style="display:flex;"><span>                prev = cur
+</span></span><span style="display:flex;"><span>            cur += <span style="color:#ff0;font-weight:bold">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> n == <span style="color:#ff0;font-weight:bold">1</span> and (cur - prev &gt; <span style="color:#ff0;font-weight:bold">1</span>) and flowerbed[cur] != <span style="color:#ff0;font-weight:bold">1</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">True</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> n &gt; <span style="color:#ff0;font-weight:bold">0</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">False</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">True</span>
+</span></span></code></pre></div>
+  </article>
+</section>
 
-
-      <footer>
-        
-
-
-        
-        
-        
-      </footer>
-    </article>
-
-    
-  </section>
 
       </div>
 
@@ -204,7 +169,7 @@ class Solution(object): def canPlaceFlowers(self, flowerbed, n): &#34;&#34;&#34;
         
           2019 -
         
-        2020
+        2023
          Chinmay Mishra 
       
       
@@ -230,7 +195,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
     <script>
 (function(f, a, t, h, o, m){

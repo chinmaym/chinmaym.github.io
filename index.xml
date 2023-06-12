@@ -6,7 +6,16 @@
     <description>Recent content on Chinmay Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Dec 2020 00:24:52 -0800</lastBuildDate><atom:link href="https://www.chinmaymishra.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 14:06:16 -0700</lastBuildDate><atom:link href="https://www.chinmaymishra.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Restart</title>
+      <link>https://www.chinmaymishra.me/posts/restart/</link>
+      <pubDate>Sun, 11 Jun 2023 14:06:16 -0700</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/posts/restart/</guid>
+      <description>Restart </description>
+    </item>
+    
     <item>
       <title>December_day_7</title>
       <link>https://www.chinmaymishra.me/leetcode/december_day_7/</link>
@@ -171,7 +180,7 @@ In a row of trees, the i-th tree produces fruit with type tree[i]. You start at 
       <pubDate>Thu, 16 Apr 2020 10:06:30 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/posts/trie_implementation_go/</guid>
-      <description>Trie Implementation in GO package main import &amp;#34;fmt&amp;#34; const ( // ChildrenLength Length of the alphabets 	ChildrenLength = 26 ) type trieNode struct { children [ChildrenLength]*trieNode isEnd bool } type trie struct { root *trieNode } func initTrie() *trie { return &amp;amp;trie{ root: &amp;amp;trieNode{}, } } func (t *trie) insert(word string) { current := t.root for _, val := range word { index := val - &amp;#39;a&amp;#39; if current.children[index] == nil { current.</description>
+      <description>Trie Implementation in GO package main import &amp;#34;fmt&amp;#34; const ( // ChildrenLength Length of the alphabets ChildrenLength = 26 ) type trieNode struct { children [ChildrenLength]*trieNode isEnd bool } type trie struct { root *trieNode } func initTrie() *trie { return &amp;amp;trie{ root: &amp;amp;trieNode{}, } } func (t *trie) insert(word string) { current := t.root for _, val := range word { index := val - &amp;#39;a&amp;#39; if current.children[index] == nil { current.</description>
     </item>
     
     <item>
