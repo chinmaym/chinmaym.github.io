@@ -18,9 +18,10 @@ Given an array of string words. Return all strings in words which is substring o
 <meta property="og:description" content="Leetcode 1408 Link to the question
 Given an array of string words. Return all strings in words which is substring of another word in any order. String words[i] is substring of words[j], if can be obtained removing some characters to left and/or right side of words[j]. Example 1: Input: words = [&#34;mass&#34;,&#34;as&#34;,&#34;hero&#34;,&#34;superhero&#34;] Output: [&#34;as&#34;,&#34;hero&#34;] Explanation: &#34;as&#34; is substring of &#34;mass&#34; and &#34;hero&#34; is substring of &#34;superhero&#34;. [&#34;hero&#34;,&#34;as&#34;] is also a valid answer." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.chinmaymishra.me/leetcode/1408_string_matching_in_an_array/" />
+<meta property="og:url" content="https://www.chinmaymishra.me/leetcode/1408_string_matching_in_an_array/" /><meta property="article:section" content="leetcode" />
 <meta property="article:published_time" content="2020-04-15T02:03:50-07:00" />
 <meta property="article:modified_time" content="2020-04-15T02:03:50-07:00" />
+
 
 
     
@@ -41,7 +42,7 @@ Given an array of string words. Return all strings in words which is substring o
     
       
       
-      <link rel="stylesheet" href="https://www.chinmaymishra.me/css/coder.min.e794c12e85571424ebb4e70a43a1236a78325b43d749ca389997b59d947b2984.css" integrity="sha256-55TBLoVXFCTrtOcKQ6EjangyW0PXSco4mZe1nZR7KYQ=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="https://www.chinmaymishra.me/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
     
 
     
@@ -63,7 +64,7 @@ Given an array of string words. Return all strings in words which is substring o
     <link rel="icon" type="image/png" href="https://www.chinmaymishra.me/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://www.chinmaymishra.me/images/favicon-16x16.png" sizes="16x16">
 
-    <meta name="generator" content="Hugo 0.77.0-DEV" />
+    <meta name="generator" content="Hugo 0.111.3">
   </head>
 
   
@@ -117,161 +118,122 @@ Given an array of string words. Return all strings in words which is substring o
 
       <div class="content">
         
-  <section class="container post">
-    <article>
-      <header>
-        <div class="post-title">
-          <h1 class="title">1408_string_matching_in_an_array</h1>
-        </div>
-        <div class="post-meta">
-          <div class="date">
-            <span class="posted-on">
-              <i class="fas fa-calendar"></i>
-              <time datetime='2020-04-15T02:03:50-07:00'>
-                April 15, 2020
-              </time>
-            </span>
-            <span class="reading-time">
-              <i class="fas fa-clock"></i>
-              2-minute read
-            </span>
-          </div>
-          <div class="categories">
-  <i class="fas fa-folder"></i>
-    <a href="https://www.chinmaymishra.me/categories/leetcode/">Leetcode</a></div>
+  <section class="container page">
+  <article>
+    <header>
+      <h1>1408_string_matching_in_an_array</h1>
+    </header>
 
-          <div class="tags">
-  <i class="fas fa-tag"></i>
-    <a href="https://www.chinmaymishra.me/tags/leetcode/">Leetcode</a></div>
-
-        </div>
-      </header>
-
-      <div>
-        
-        <h1 id="leetcode-1408">Leetcode 1408</h1>
+    <h1 id="leetcode-1408">Leetcode 1408</h1>
 <p><a href="https://leetcode.com/problems/string-matching-in-an-array/" title="String Matching in an Array">Link to the question</a></p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Given an array of string words. Return all strings in words which is substring of another word in any order. 
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>Given an array of string words. Return all strings in words which is substring of another word in any order. 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>String words[i] is substring of words[j], if can be obtained removing some characters to left and/or right side of words[j].
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Example 1:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Input: words = [&#34;mass&#34;,&#34;as&#34;,&#34;hero&#34;,&#34;superhero&#34;]
+</span></span><span style="display:flex;"><span>Output: [&#34;as&#34;,&#34;hero&#34;]
+</span></span><span style="display:flex;"><span>Explanation: &#34;as&#34; is substring of &#34;mass&#34; and &#34;hero&#34; is substring of &#34;superhero&#34;.
+</span></span><span style="display:flex;"><span>[&#34;hero&#34;,&#34;as&#34;] is also a valid answer.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Example 2:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Input: words = [&#34;leetcode&#34;,&#34;et&#34;,&#34;code&#34;]
+</span></span><span style="display:flex;"><span>Output: [&#34;et&#34;,&#34;code&#34;]
+</span></span><span style="display:flex;"><span>Explanation: &#34;et&#34;, &#34;code&#34; are substring of &#34;leetcode&#34;.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Example 3:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Input: words = [&#34;blue&#34;,&#34;green&#34;,&#34;bu&#34;]
+</span></span><span style="display:flex;"><span>Output: []
+</span></span></code></pre></div><p>My solution is not a good one. It&rsquo;s just that this solution stuck in my head and i wanted to also learn how to implement trie in GO. But there are solutions better than this.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">const</span> (
+</span></span><span style="display:flex;"><span>	ALPHABET_SIZE = <span style="color:#ff0;font-weight:bold">26</span>
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">type</span> trieNode <span style="color:#fff;font-weight:bold">struct</span> {
+</span></span><span style="display:flex;"><span>	children  [ALPHABET_SIZE]*trieNode
+</span></span><span style="display:flex;"><span>	isWordEnd <span style="color:#fff;font-weight:bold">bool</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">type</span> trie <span style="color:#fff;font-weight:bold">struct</span> {
+</span></span><span style="display:flex;"><span>	root *trieNode
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">func</span> initTrie() *trie {
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">return</span> &amp;trie{
+</span></span><span style="display:flex;"><span>		root: &amp;trieNode{},
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">func</span> (t *trie) insert(word <span style="color:#fff;font-weight:bold">string</span>) {
+</span></span><span style="display:flex;"><span>	wordLength := <span style="color:#fff;font-weight:bold">len</span>(word)
+</span></span><span style="display:flex;"><span>	current := t.root
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">for</span> i := <span style="color:#ff0;font-weight:bold">0</span>; i &lt; wordLength; i++ {
+</span></span><span style="display:flex;"><span>		index := word[i] - <span style="color:#0ff;font-weight:bold">&#39;a&#39;</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">if</span> current.children[index] == <span style="color:#fff;font-weight:bold">nil</span> {
+</span></span><span style="display:flex;"><span>			current.children[index] = &amp;trieNode{}
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>		current = current.children[index]
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	current.isWordEnd = <span style="color:#fff;font-weight:bold">true</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">func</span> (t *trie) findSub(word <span style="color:#fff;font-weight:bold">string</span>) <span style="color:#fff;font-weight:bold">bool</span> {
+</span></span><span style="display:flex;"><span>	wordLength := <span style="color:#fff;font-weight:bold">len</span>(word)
+</span></span><span style="display:flex;"><span>	current := t.root
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">for</span> i := <span style="color:#ff0;font-weight:bold">0</span>; i &lt; wordLength; i++ {
+</span></span><span style="display:flex;"><span>		index := word[i] - <span style="color:#0ff;font-weight:bold">&#39;a&#39;</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">if</span> current.children[index] == <span style="color:#fff;font-weight:bold">nil</span> {
+</span></span><span style="display:flex;"><span>			<span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">false</span>
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>		current = current.children[index]
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">true</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">type</span> byLength []<span style="color:#fff;font-weight:bold">string</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">func</span> (s byLength) Len() <span style="color:#fff;font-weight:bold">int</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">len</span>(s)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">func</span> (s byLength) Swap(i, j <span style="color:#fff;font-weight:bold">int</span>) {
+</span></span><span style="display:flex;"><span>	s[i], s[j] = s[j], s[i]
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">func</span> (s byLength) Less(i, j <span style="color:#fff;font-weight:bold">int</span>) <span style="color:#fff;font-weight:bold">bool</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">len</span>(s[i]) &lt; <span style="color:#fff;font-weight:bold">len</span>(s[j])
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">func</span> stringMatching(words []<span style="color:#fff;font-weight:bold">string</span>) []<span style="color:#fff;font-weight:bold">string</span> {
+</span></span><span style="display:flex;"><span>    ret := <span style="color:#fff;font-weight:bold">make</span>([]<span style="color:#fff;font-weight:bold">string</span>, <span style="color:#ff0;font-weight:bold">0</span>)
+</span></span><span style="display:flex;"><span>	sort.Sort(byLength(words))
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">for</span> i := <span style="color:#fff;font-weight:bold">len</span>(words) - <span style="color:#ff0;font-weight:bold">1</span>; i &gt;= <span style="color:#ff0;font-weight:bold">0</span>; i-- {
+</span></span><span style="display:flex;"><span>		trie := initTrie()
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">for</span> j := <span style="color:#fff;font-weight:bold">len</span>(words) - <span style="color:#ff0;font-weight:bold">1</span>; j &gt;= <span style="color:#ff0;font-weight:bold">0</span>; j-- {
+</span></span><span style="display:flex;"><span>			<span style="color:#fff;font-weight:bold">if</span> j != i {
+</span></span><span style="display:flex;"><span>				fmt.Print(words[j], <span style="color:#0ff;font-weight:bold">&#34; &#34;</span>)
+</span></span><span style="display:flex;"><span>				word := words[j]
+</span></span><span style="display:flex;"><span>				<span style="color:#fff;font-weight:bold">for</span> <span style="color:#fff;font-weight:bold">len</span>(word) &gt; <span style="color:#ff0;font-weight:bold">0</span> {
+</span></span><span style="display:flex;"><span>					trie.insert(word)
+</span></span><span style="display:flex;"><span>					word = word[<span style="color:#ff0;font-weight:bold">1</span>:]
+</span></span><span style="display:flex;"><span>				}
+</span></span><span style="display:flex;"><span>			}
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>		fmt.Println()
+</span></span><span style="display:flex;"><span>		<span style="color:#fff;font-weight:bold">if</span> trie.findSub(words[i]) {
+</span></span><span style="display:flex;"><span>			ret = <span style="color:#fff;font-weight:bold">append</span>(ret, words[i])
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#fff;font-weight:bold">return</span> ret
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+  </article>
+</section>
 
-String words[i] is substring of words[j], if can be obtained removing some characters to left and/or right side of words[j].
-
- 
-
-Example 1:
-
-Input: words = [&#34;mass&#34;,&#34;as&#34;,&#34;hero&#34;,&#34;superhero&#34;]
-Output: [&#34;as&#34;,&#34;hero&#34;]
-Explanation: &#34;as&#34; is substring of &#34;mass&#34; and &#34;hero&#34; is substring of &#34;superhero&#34;.
-[&#34;hero&#34;,&#34;as&#34;] is also a valid answer.
-
-Example 2:
-
-Input: words = [&#34;leetcode&#34;,&#34;et&#34;,&#34;code&#34;]
-Output: [&#34;et&#34;,&#34;code&#34;]
-Explanation: &#34;et&#34;, &#34;code&#34; are substring of &#34;leetcode&#34;.
-
-Example 3:
-
-Input: words = [&#34;blue&#34;,&#34;green&#34;,&#34;bu&#34;]
-Output: []
-
-</code></pre></div><p>My solution is not a good one. It&rsquo;s just that this solution stuck in my head and i wanted to also learn how to implement trie in GO. But there are solutions better than this.</p>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#fff;font-weight:bold">const</span> (
-	ALPHABET_SIZE = <span style="color:#ff0;font-weight:bold">26</span>
-)
-
-<span style="color:#fff;font-weight:bold">type</span> trieNode <span style="color:#fff;font-weight:bold">struct</span> {
-	children  [ALPHABET_SIZE]*trieNode
-	isWordEnd <span style="color:#fff;font-weight:bold">bool</span>
-}
-
-<span style="color:#fff;font-weight:bold">type</span> trie <span style="color:#fff;font-weight:bold">struct</span> {
-	root *trieNode
-}
-
-<span style="color:#fff;font-weight:bold">func</span> initTrie() *trie {
-	<span style="color:#fff;font-weight:bold">return</span> &amp;trie{
-		root: &amp;trieNode{},
-	}
-}
-
-<span style="color:#fff;font-weight:bold">func</span> (t *trie) insert(word <span style="color:#fff;font-weight:bold">string</span>) {
-	wordLength := <span style="color:#fff;font-weight:bold">len</span>(word)
-	current := t.root
-	<span style="color:#fff;font-weight:bold">for</span> i := <span style="color:#ff0;font-weight:bold">0</span>; i &lt; wordLength; i++ {
-		index := word[i] - <span style="color:#0ff;font-weight:bold">&#39;a&#39;</span>
-		<span style="color:#fff;font-weight:bold">if</span> current.children[index] == <span style="color:#fff;font-weight:bold">nil</span> {
-			current.children[index] = &amp;trieNode{}
-		}
-		current = current.children[index]
-	}
-	current.isWordEnd = <span style="color:#fff;font-weight:bold">true</span>
-}
-
-<span style="color:#fff;font-weight:bold">func</span> (t *trie) findSub(word <span style="color:#fff;font-weight:bold">string</span>) <span style="color:#fff;font-weight:bold">bool</span> {
-	wordLength := <span style="color:#fff;font-weight:bold">len</span>(word)
-	current := t.root
-	<span style="color:#fff;font-weight:bold">for</span> i := <span style="color:#ff0;font-weight:bold">0</span>; i &lt; wordLength; i++ {
-		index := word[i] - <span style="color:#0ff;font-weight:bold">&#39;a&#39;</span>
-		<span style="color:#fff;font-weight:bold">if</span> current.children[index] == <span style="color:#fff;font-weight:bold">nil</span> {
-			<span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">false</span>
-		}
-		current = current.children[index]
-	}
-	<span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">true</span>
-}
-
-<span style="color:#fff;font-weight:bold">type</span> byLength []<span style="color:#fff;font-weight:bold">string</span>
-
-<span style="color:#fff;font-weight:bold">func</span> (s byLength) Len() <span style="color:#fff;font-weight:bold">int</span> {
-	<span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">len</span>(s)
-}
-<span style="color:#fff;font-weight:bold">func</span> (s byLength) Swap(i, j <span style="color:#fff;font-weight:bold">int</span>) {
-	s[i], s[j] = s[j], s[i]
-}
-
-<span style="color:#fff;font-weight:bold">func</span> (s byLength) Less(i, j <span style="color:#fff;font-weight:bold">int</span>) <span style="color:#fff;font-weight:bold">bool</span> {
-	<span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">len</span>(s[i]) &lt; <span style="color:#fff;font-weight:bold">len</span>(s[j])
-}
-
-<span style="color:#fff;font-weight:bold">func</span> stringMatching(words []<span style="color:#fff;font-weight:bold">string</span>) []<span style="color:#fff;font-weight:bold">string</span> {
-    ret := <span style="color:#fff;font-weight:bold">make</span>([]<span style="color:#fff;font-weight:bold">string</span>, <span style="color:#ff0;font-weight:bold">0</span>)
-	sort.Sort(byLength(words))
-	<span style="color:#fff;font-weight:bold">for</span> i := <span style="color:#fff;font-weight:bold">len</span>(words) - <span style="color:#ff0;font-weight:bold">1</span>; i &gt;= <span style="color:#ff0;font-weight:bold">0</span>; i-- {
-		trie := initTrie()
-		<span style="color:#fff;font-weight:bold">for</span> j := <span style="color:#fff;font-weight:bold">len</span>(words) - <span style="color:#ff0;font-weight:bold">1</span>; j &gt;= <span style="color:#ff0;font-weight:bold">0</span>; j-- {
-			<span style="color:#fff;font-weight:bold">if</span> j != i {
-				fmt.Print(words[j], <span style="color:#0ff;font-weight:bold">&#34; &#34;</span>)
-				word := words[j]
-				<span style="color:#fff;font-weight:bold">for</span> <span style="color:#fff;font-weight:bold">len</span>(word) &gt; <span style="color:#ff0;font-weight:bold">0</span> {
-					trie.insert(word)
-					word = word[<span style="color:#ff0;font-weight:bold">1</span>:]
-				}
-			}
-		}
-		fmt.Println()
-		<span style="color:#fff;font-weight:bold">if</span> trie.findSub(words[i]) {
-			ret = <span style="color:#fff;font-weight:bold">append</span>(ret, words[i])
-		}
-	}
-	<span style="color:#fff;font-weight:bold">return</span> ret
-}
-</code></pre></div>
-      </div>
-
-
-      <footer>
-        
-
-
-        
-        
-        
-      </footer>
-    </article>
-
-    
-  </section>
 
       </div>
 
@@ -286,7 +248,7 @@ Output: []
         
           2019 -
         
-        2021
+        2023
          Chinmay Mishra 
       
       
@@ -312,7 +274,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 
     <script>
 (function(f, a, t, h, o, m){
