@@ -13,7 +13,7 @@
       <pubDate>Thu, 16 Apr 2020 14:51:36 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/posts/leetcode_904/</guid>
-      <description>Leetcode 904 Solution [Link to the question] (https://leetcode.com/problems/fruit-into-baskets &amp;ldquo;Leetcode 904&amp;rdquo;)
+      <description>Leetcode 904 Solution Link to heading [Link to the question] (https://leetcode.com/problems/fruit-into-baskets &amp;ldquo;Leetcode 904&amp;rdquo;)
 In a row of trees, the i-th tree produces fruit with type tree[i]. You start at any tree of your choice, then repeatedly perform the following steps: Add one piece of fruit from this tree to your baskets. If you cannot, stop. Move to the next tree to the right of the current tree. If there is no tree to the right, stop.</description>
     </item>
     

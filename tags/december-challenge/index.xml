@@ -13,7 +13,7 @@
       <pubDate>Tue, 08 Dec 2020 00:24:52 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_7/</guid>
-      <description>Leetcode December Challenge Day 7 Link to the question
+      <description> Leetcode December Challenge Day 7 Link to heading Link to the question
 Solution -
 class Solution(object): def generateMatrix(self, n): &amp;#34;&amp;#34;&amp;#34; :type n: int :rtype: List[List[int]] &amp;#34;&amp;#34;&amp;#34; ret = [[0 for i in range(n)] for i in range(n)] a = 1 for i in range(n/2+1): for j in range(i, n-i): ret[i][j] = a a +=1 for k in range(i+1, n-i): ret[k][j] = a a += 1 for l in range(j-1, i-1, -1): ret[j][l] = a a += 1 for m in range(j-1, i, -1): ret[m][i] = a a += 1 return ret </description>
     </item>
@@ -24,9 +24,9 @@ class Solution(object): def generateMatrix(self, n): &amp;#34;&amp;#34;&amp;#34;
       <pubDate>Tue, 08 Dec 2020 00:16:11 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_6/</guid>
-      <description>Leetcode December Challenge Day 6 Link to the question
+      <description>Leetcode December Challenge Day 6 Link to heading Link to the question
 Solution to the question
-&amp;#34;&amp;#34;&amp;#34; # Definition for a Node. class Node: def __init__(self, val: int = 0, left: &amp;#39;Node&amp;#39; = None, right: &amp;#39;Node&amp;#39; = None, next: &amp;#39;Node&amp;#39; = None): self.val = val self.left = left self.right = right self.next = next &amp;#34;&amp;#34;&amp;#34; class Solution: def connect(self, root: &amp;#39;Node&amp;#39;) -&amp;gt; &amp;#39;Node&amp;#39;: if root == None: return None self.connect(root.left) self.connect(root.right) self.connectInner(root.left, root.right) return root def connectInner(self, leftChild, rightChild): if leftChild !</description>
+&amp;#34;&amp;#34;&amp;#34; # Definition for a Node. class Node: def __init__(self, val: int = 0, left: &amp;#39;Node&amp;#39; = None, right: &amp;#39;Node&amp;#39; = None, next: &amp;#39;Node&amp;#39; = None): self.val = val self.left = left self.right = right self.next = next &amp;#34;&amp;#34;&amp;#34; class Solution: def connect(self, root: &amp;#39;Node&amp;#39;) -&amp;gt; &amp;#39;Node&amp;#39;: if root == None: return None self.</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@ Solution to the question
       <pubDate>Tue, 08 Dec 2020 00:14:00 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_5/</guid>
-      <description>Leetcode December Challenge Day 5 Link to the question
+      <description>Leetcode December Challenge Day 5 Link to heading Link to the question
 Solution to the question
 class Solution(object): def canPlaceFlowers(self, flowerbed, n): &amp;#34;&amp;#34;&amp;#34; :type flowerbed: List[int] :type n: int :rtype: bool &amp;#34;&amp;#34;&amp;#34; cur=0 prev=-10 while cur &amp;lt; len(flowerbed)-1: if flowerbed[cur] != 1 and (cur - prev &amp;gt; 1) and (flowerbed[cur+1]) != 1: flowerbed[cur] = 1 prev = cur n -= 1 elif flowerbed[cur] == 1: prev = cur cur += 1 if n == 1 and (cur - prev &amp;gt; 1) and flowerbed[cur] !</description>
     </item>
@@ -46,7 +46,7 @@ class Solution(object): def canPlaceFlowers(self, flowerbed, n): &amp;#34;&amp;#
       <pubDate>Tue, 08 Dec 2020 00:12:05 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_4/</guid>
-      <description>Leetcode December Challenge Day 4 Link to the question
+      <description> Leetcode December Challenge Day 4 Link to heading Link to the question
 Solution to the question
 class Solution(object): def kthFactor(self, n, k): &amp;#34;&amp;#34;&amp;#34; :type n: int :type k: int :rtype: int &amp;#34;&amp;#34;&amp;#34; i = 1 while i&amp;lt;=n: if n%i == 0: k -= 1 if k == 0: return i i += 1 return -1 </description>
     </item>
@@ -57,7 +57,7 @@ class Solution(object): def kthFactor(self, n, k): &amp;#34;&amp;#34;&amp;#34; :
       <pubDate>Thu, 03 Dec 2020 23:43:57 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_3/</guid>
-      <description>Leetcode December Challege Day 3 Link to the question
+      <description>Leetcode December Challege Day 3 Link to heading Link to the question
 Solution to the question
 # Definition for a binary tree node. # class TreeNode(object): # def __init__(self, val=0, left=None, right=None): # self.val = val # self.left = left # self.right = right class Solution(object): def increasingBST(self, root): &amp;#34;&amp;#34;&amp;#34; :type root: TreeNode :rtype: TreeNode &amp;#34;&amp;#34;&amp;#34; if root == None: return None left = self.increasingBST(root.left) if left == None: head = root else: head = left while left and left.</description>
     </item>
@@ -68,9 +68,9 @@ Solution to the question
       <pubDate>Wed, 02 Dec 2020 23:10:08 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_2/</guid>
-      <description>Leetcode December Challenge Day 2 Link to the question
+      <description>Leetcode December Challenge Day 2 Link to heading Link to the question
 Solution to the question
-import random class Solution: def __init__(self, head: ListNode): &amp;#34;&amp;#34;&amp;#34; @param head The linked list&amp;#39;s head. Note that the head is guaranteed to be not null, so it contains at least one node. &amp;#34;&amp;#34;&amp;#34; self.head = head self.length = None def getRandom(self) -&amp;gt; int: &amp;#34;&amp;#34;&amp;#34; Returns a random node&amp;#39;s value. &amp;#34;&amp;#34;&amp;#34; head = self.head if self.length == None: self.</description>
+import random class Solution: def __init__(self, head: ListNode): &amp;#34;&amp;#34;&amp;#34; @param head The linked list&amp;#39;s head. Note that the head is guaranteed to be not null, so it contains at least one node. &amp;#34;&amp;#34;&amp;#34; self.head = head self.length = None def getRandom(self) -&amp;gt; int: &amp;#34;&amp;#34;&amp;#34; Returns a random node&amp;#39;s value. &amp;#34;&amp;#34;&amp;#34; head = self.head if self.</description>
     </item>
     
     <item>
@@ -79,7 +79,7 @@ import random class Solution: def __init__(self, head: ListNode): &amp;#34;&amp;
       <pubDate>Wed, 02 Dec 2020 01:21:46 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_week_1_bonus/</guid>
-      <description>Leetcode December Challenge Day 1 Link to the question
+      <description> Leetcode December Challenge Day 1 Link to heading Link to the question
 Solution
 class Solution(object): def shortestDistance(self, words, word1, word2): &amp;#34;&amp;#34;&amp;#34; :type words: List[str] :type word1: str :type word2: str :rtype: int &amp;#34;&amp;#34;&amp;#34; val1 = val2 = None dist = len(words) for i in range(len(words)): if words[i] == word1: val1 = i if words[i] == word2: val2 = i if val1 != None and val2 != None: dist = min(dist,abs(val1-val2)) return dist </description>
     </item>
@@ -90,7 +90,7 @@ class Solution(object): def shortestDistance(self, words, word1, word2): &amp;#3
       <pubDate>Wed, 02 Dec 2020 01:10:00 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_1/</guid>
-      <description>Leetcode December Challenge Day 1 Link to the question
+      <description> Leetcode December Challenge Day 1 Link to heading Link to the question
 Solution to the question
 class Solution(object): def maxDepth(self, root): &amp;#34;&amp;#34;&amp;#34; :type root: TreeNode :rtype: int &amp;#34;&amp;#34;&amp;#34; if root is None: return 0 return 1+ max(self.maxDepth(root.left), self.maxDepth(root.right)) </description>
     </item>
