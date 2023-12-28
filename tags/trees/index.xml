@@ -13,9 +13,9 @@
       <pubDate>Tue, 08 Dec 2020 00:16:11 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_6/</guid>
-      <description>Leetcode December Challenge Day 6 Link to the question
+      <description>Leetcode December Challenge Day 6 Link to heading Link to the question
 Solution to the question
-&amp;#34;&amp;#34;&amp;#34; # Definition for a Node. class Node: def __init__(self, val: int = 0, left: &amp;#39;Node&amp;#39; = None, right: &amp;#39;Node&amp;#39; = None, next: &amp;#39;Node&amp;#39; = None): self.val = val self.left = left self.right = right self.next = next &amp;#34;&amp;#34;&amp;#34; class Solution: def connect(self, root: &amp;#39;Node&amp;#39;) -&amp;gt; &amp;#39;Node&amp;#39;: if root == None: return None self.connect(root.left) self.connect(root.right) self.connectInner(root.left, root.right) return root def connectInner(self, leftChild, rightChild): if leftChild !</description>
+&amp;#34;&amp;#34;&amp;#34; # Definition for a Node. class Node: def __init__(self, val: int = 0, left: &amp;#39;Node&amp;#39; = None, right: &amp;#39;Node&amp;#39; = None, next: &amp;#39;Node&amp;#39; = None): self.val = val self.left = left self.right = right self.next = next &amp;#34;&amp;#34;&amp;#34; class Solution: def connect(self, root: &amp;#39;Node&amp;#39;) -&amp;gt; &amp;#39;Node&amp;#39;: if root == None: return None self.</description>
     </item>
     
   </channel>

@@ -6,7 +6,16 @@
     <description>Recent content on Chinmay Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Jun 2023 14:06:16 -0700</lastBuildDate><atom:link href="https://www.chinmaymishra.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Sep 2023 12:01:22 -0700</lastBuildDate><atom:link href="https://www.chinmaymishra.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools for Goal Setting (Andrew Huberman)</title>
+      <link>https://www.chinmaymishra.me/posts/goal-setting/</link>
+      <pubDate>Fri, 01 Sep 2023 12:01:22 -0700</pubDate>
+      
+      <guid>https://www.chinmaymishra.me/posts/goal-setting/</guid>
+      <description>Tools for Goal Setting (Andrew Huberman) Link to heading Pre-Requisite Link to heading Getting adequate sleep Eat good whole food Sunlight Social connection Movement First question - what goal do I want to pursue? Link to heading Choose priority goal Link to heading Pursue Lofty goal Link to heading Many goals simultaneously fail Priority goal (Maybe a priority goal in a phase) Attain one goal for a phase. Spend serious time to define that one goal for a particular pursuit period.</description>
+    </item>
+    
     <item>
       <title>Restart</title>
       <link>https://www.chinmaymishra.me/posts/restart/</link>
@@ -22,7 +31,7 @@
       <pubDate>Tue, 08 Dec 2020 00:24:52 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_7/</guid>
-      <description>Leetcode December Challenge Day 7 Link to the question
+      <description> Leetcode December Challenge Day 7 Link to heading Link to the question
 Solution -
 class Solution(object): def generateMatrix(self, n): &amp;#34;&amp;#34;&amp;#34; :type n: int :rtype: List[List[int]] &amp;#34;&amp;#34;&amp;#34; ret = [[0 for i in range(n)] for i in range(n)] a = 1 for i in range(n/2+1): for j in range(i, n-i): ret[i][j] = a a +=1 for k in range(i+1, n-i): ret[k][j] = a a += 1 for l in range(j-1, i-1, -1): ret[j][l] = a a += 1 for m in range(j-1, i, -1): ret[m][i] = a a += 1 return ret </description>
     </item>
@@ -33,9 +42,9 @@ class Solution(object): def generateMatrix(self, n): &amp;#34;&amp;#34;&amp;#34;
       <pubDate>Tue, 08 Dec 2020 00:16:11 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_6/</guid>
-      <description>Leetcode December Challenge Day 6 Link to the question
+      <description>Leetcode December Challenge Day 6 Link to heading Link to the question
 Solution to the question
-&amp;#34;&amp;#34;&amp;#34; # Definition for a Node. class Node: def __init__(self, val: int = 0, left: &amp;#39;Node&amp;#39; = None, right: &amp;#39;Node&amp;#39; = None, next: &amp;#39;Node&amp;#39; = None): self.val = val self.left = left self.right = right self.next = next &amp;#34;&amp;#34;&amp;#34; class Solution: def connect(self, root: &amp;#39;Node&amp;#39;) -&amp;gt; &amp;#39;Node&amp;#39;: if root == None: return None self.connect(root.left) self.connect(root.right) self.connectInner(root.left, root.right) return root def connectInner(self, leftChild, rightChild): if leftChild !</description>
+&amp;#34;&amp;#34;&amp;#34; # Definition for a Node. class Node: def __init__(self, val: int = 0, left: &amp;#39;Node&amp;#39; = None, right: &amp;#39;Node&amp;#39; = None, next: &amp;#39;Node&amp;#39; = None): self.val = val self.left = left self.right = right self.next = next &amp;#34;&amp;#34;&amp;#34; class Solution: def connect(self, root: &amp;#39;Node&amp;#39;) -&amp;gt; &amp;#39;Node&amp;#39;: if root == None: return None self.</description>
     </item>
     
     <item>
@@ -44,7 +53,7 @@ Solution to the question
       <pubDate>Tue, 08 Dec 2020 00:14:00 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_5/</guid>
-      <description>Leetcode December Challenge Day 5 Link to the question
+      <description>Leetcode December Challenge Day 5 Link to heading Link to the question
 Solution to the question
 class Solution(object): def canPlaceFlowers(self, flowerbed, n): &amp;#34;&amp;#34;&amp;#34; :type flowerbed: List[int] :type n: int :rtype: bool &amp;#34;&amp;#34;&amp;#34; cur=0 prev=-10 while cur &amp;lt; len(flowerbed)-1: if flowerbed[cur] != 1 and (cur - prev &amp;gt; 1) and (flowerbed[cur+1]) != 1: flowerbed[cur] = 1 prev = cur n -= 1 elif flowerbed[cur] == 1: prev = cur cur += 1 if n == 1 and (cur - prev &amp;gt; 1) and flowerbed[cur] !</description>
     </item>
@@ -55,7 +64,7 @@ class Solution(object): def canPlaceFlowers(self, flowerbed, n): &amp;#34;&amp;#
       <pubDate>Tue, 08 Dec 2020 00:12:05 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_4/</guid>
-      <description>Leetcode December Challenge Day 4 Link to the question
+      <description> Leetcode December Challenge Day 4 Link to heading Link to the question
 Solution to the question
 class Solution(object): def kthFactor(self, n, k): &amp;#34;&amp;#34;&amp;#34; :type n: int :type k: int :rtype: int &amp;#34;&amp;#34;&amp;#34; i = 1 while i&amp;lt;=n: if n%i == 0: k -= 1 if k == 0: return i i += 1 return -1 </description>
     </item>
@@ -66,7 +75,7 @@ class Solution(object): def kthFactor(self, n, k): &amp;#34;&amp;#34;&amp;#34; :
       <pubDate>Thu, 03 Dec 2020 23:55:11 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/359_logger_rate_limiter/</guid>
-      <description>Leetcode 359 Link to the question
+      <description>Leetcode 359 Link to heading Link to the question
 Design a logger system that receive stream of messages along with its timestamps, each message should be printed if and only if it is not printed in the last 10 seconds. Given a message and a timestamp (in seconds granularity), return true if the message should be printed in the given timestamp, otherwise returns false. It is possible that several messages arrive roughly at the same time.</description>
     </item>
     
@@ -76,7 +85,7 @@ Design a logger system that receive stream of messages along with its timestamps
       <pubDate>Thu, 03 Dec 2020 23:43:57 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_3/</guid>
-      <description>Leetcode December Challege Day 3 Link to the question
+      <description>Leetcode December Challege Day 3 Link to heading Link to the question
 Solution to the question
 # Definition for a binary tree node. # class TreeNode(object): # def __init__(self, val=0, left=None, right=None): # self.val = val # self.left = left # self.right = right class Solution(object): def increasingBST(self, root): &amp;#34;&amp;#34;&amp;#34; :type root: TreeNode :rtype: TreeNode &amp;#34;&amp;#34;&amp;#34; if root == None: return None left = self.increasingBST(root.left) if left == None: head = root else: head = left while left and left.</description>
     </item>
@@ -87,7 +96,7 @@ Solution to the question
       <pubDate>Wed, 02 Dec 2020 23:19:39 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/346_moving_average_from_data_stream/</guid>
-      <description>Leetcode 346 Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window. Example: MovingAverage m = new MovingAverage(3); m.next(1) = 1 m.next(10) = (1 + 10) / 2 m.next(3) = (1 + 10 + 3) / 3 m.next(5) = (10 + 3 + 5) / 3 My solution -
+      <description>Leetcode 346 Link to heading Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window. Example: MovingAverage m = new MovingAverage(3); m.next(1) = 1 m.next(10) = (1 + 10) / 2 m.next(3) = (1 + 10 + 3) / 3 m.next(5) = (10 + 3 + 5) / 3 My solution -
 class MovingAverage: def __init__(self, size: int): &amp;#34;&amp;#34;&amp;#34; Initialize your data structure here.</description>
     </item>
     
@@ -97,7 +106,7 @@ class MovingAverage: def __init__(self, size: int): &amp;#34;&amp;#34;&amp;#34; 
       <pubDate>Wed, 02 Dec 2020 23:16:16 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1021_remove_outermost_parentheses/</guid>
-      <description>Leetcode 1021 Link to the question
+      <description>Leetcode 1021 Link to heading Link to the question
 A valid parentheses string is either empty (&amp;#34;&amp;#34;), &amp;#34;(&amp;#34; + A + &amp;#34;)&amp;#34;, or A + B, where A and B are valid parentheses strings, and + represents string concatenation. For example, &amp;#34;&amp;#34;, &amp;#34;()&amp;#34;, &amp;#34;(())()&amp;#34;, and &amp;#34;(()(()))&amp;#34; are all valid parentheses strings. A valid parentheses string S is primitive if it is nonempty, and there does not exist a way to split it into S = A+B, with A and B nonempty valid parentheses strings.</description>
     </item>
     
@@ -107,9 +116,9 @@ A valid parentheses string is either empty (&amp;#34;&amp;#34;), &amp;#34;(&amp;
       <pubDate>Wed, 02 Dec 2020 23:10:08 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_2/</guid>
-      <description>Leetcode December Challenge Day 2 Link to the question
+      <description>Leetcode December Challenge Day 2 Link to heading Link to the question
 Solution to the question
-import random class Solution: def __init__(self, head: ListNode): &amp;#34;&amp;#34;&amp;#34; @param head The linked list&amp;#39;s head. Note that the head is guaranteed to be not null, so it contains at least one node. &amp;#34;&amp;#34;&amp;#34; self.head = head self.length = None def getRandom(self) -&amp;gt; int: &amp;#34;&amp;#34;&amp;#34; Returns a random node&amp;#39;s value. &amp;#34;&amp;#34;&amp;#34; head = self.head if self.length == None: self.</description>
+import random class Solution: def __init__(self, head: ListNode): &amp;#34;&amp;#34;&amp;#34; @param head The linked list&amp;#39;s head. Note that the head is guaranteed to be not null, so it contains at least one node. &amp;#34;&amp;#34;&amp;#34; self.head = head self.length = None def getRandom(self) -&amp;gt; int: &amp;#34;&amp;#34;&amp;#34; Returns a random node&amp;#39;s value. &amp;#34;&amp;#34;&amp;#34; head = self.head if self.</description>
     </item>
     
     <item>
@@ -118,7 +127,7 @@ import random class Solution: def __init__(self, head: ListNode): &amp;#34;&amp;
       <pubDate>Wed, 02 Dec 2020 18:36:57 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/leetcode/</guid>
-      <description>Leetcode 1470 Link to the question
+      <description>Leetcode 1470 Link to heading Link to the question
 Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn]. Return the array in the form [x1,y1,x2,y2,...,xn,yn]. Example 1: Input: nums = [2,5,1,3,4,7], n = 3 Output: [2,3,5,4,1,7] Explanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then the answer is [2,3,5,4,1,7]. Example 2: Input: nums = [1,2,3,4,4,3,2,1], n = 4 Output: [1,4,2,3,3,2,4,1] Example 3: Input: nums = [1,1,2,2], n = 2 Output: [1,2,1,2] My Solution -</description>
     </item>
     
@@ -128,7 +137,7 @@ Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,.
       <pubDate>Wed, 02 Dec 2020 01:21:46 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_week_1_bonus/</guid>
-      <description>Leetcode December Challenge Day 1 Link to the question
+      <description> Leetcode December Challenge Day 1 Link to heading Link to the question
 Solution
 class Solution(object): def shortestDistance(self, words, word1, word2): &amp;#34;&amp;#34;&amp;#34; :type words: List[str] :type word1: str :type word2: str :rtype: int &amp;#34;&amp;#34;&amp;#34; val1 = val2 = None dist = len(words) for i in range(len(words)): if words[i] == word1: val1 = i if words[i] == word2: val2 = i if val1 != None and val2 != None: dist = min(dist,abs(val1-val2)) return dist </description>
     </item>
@@ -139,7 +148,7 @@ class Solution(object): def shortestDistance(self, words, word1, word2): &amp;#3
       <pubDate>Wed, 02 Dec 2020 01:10:00 -0800</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/december_day_1/</guid>
-      <description>Leetcode December Challenge Day 1 Link to the question
+      <description> Leetcode December Challenge Day 1 Link to heading Link to the question
 Solution to the question
 class Solution(object): def maxDepth(self, root): &amp;#34;&amp;#34;&amp;#34; :type root: TreeNode :rtype: int &amp;#34;&amp;#34;&amp;#34; if root is None: return 0 return 1+ max(self.maxDepth(root.left), self.maxDepth(root.right)) </description>
     </item>
@@ -150,7 +159,7 @@ class Solution(object): def maxDepth(self, root): &amp;#34;&amp;#34;&amp;#34; :t
       <pubDate>Sat, 24 Oct 2020 13:00:07 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/leetcode/</guid>
-      <description>Leetcode 1 Link to the question
+      <description>Leetcode 1 Link to heading Link to the question
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order. Example 1: Input: nums = [2,7,11,15], target = 9 Output: [0,1] Output: Because nums[0] + nums[1] == 9, we return [0, 1].</description>
     </item>
     
@@ -160,8 +169,8 @@ Given an array of integers nums and an integer target, return indices of the two
       <pubDate>Fri, 17 Apr 2020 01:44:26 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1389_create_target_array_in_given_order/</guid>
-      <description>Leetcode 1389 Link to the question
-Given two arrays of integers nums and index. Your task is to create target array under the following rules: Initially target array is empty. From left to right read nums[i] and index[i], insert at index index[i] the value nums[i] in target array. Repeat the previous step until there are no elements to read in nums and index. Return the target array. It is guaranteed that the insertion operations will be valid.</description>
+      <description>Leetcode 1389 Link to heading Link to the question
+Given two arrays of integers nums and index. Your task is to create target array under the following rules: Initially target array is empty. From left to right read nums[i] and index[i], insert at index index[i] the value nums[i] in target array. Repeat the previous step until there are no elements to read in nums and index. Return the target array.</description>
     </item>
     
     <item>
@@ -170,7 +179,7 @@ Given two arrays of integers nums and index. Your task is to create target array
       <pubDate>Thu, 16 Apr 2020 14:51:36 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/posts/leetcode_904/</guid>
-      <description>Leetcode 904 Solution [Link to the question] (https://leetcode.com/problems/fruit-into-baskets &amp;ldquo;Leetcode 904&amp;rdquo;)
+      <description>Leetcode 904 Solution Link to heading [Link to the question] (https://leetcode.com/problems/fruit-into-baskets &amp;ldquo;Leetcode 904&amp;rdquo;)
 In a row of trees, the i-th tree produces fruit with type tree[i]. You start at any tree of your choice, then repeatedly perform the following steps: Add one piece of fruit from this tree to your baskets. If you cannot, stop. Move to the next tree to the right of the current tree. If there is no tree to the right, stop.</description>
     </item>
     
@@ -180,7 +189,7 @@ In a row of trees, the i-th tree produces fruit with type tree[i]. You start at 
       <pubDate>Thu, 16 Apr 2020 10:06:30 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/posts/trie_implementation_go/</guid>
-      <description>Trie Implementation in GO package main import &amp;#34;fmt&amp;#34; const ( // ChildrenLength Length of the alphabets ChildrenLength = 26 ) type trieNode struct { children [ChildrenLength]*trieNode isEnd bool } type trie struct { root *trieNode } func initTrie() *trie { return &amp;amp;trie{ root: &amp;amp;trieNode{}, } } func (t *trie) insert(word string) { current := t.root for _, val := range word { index := val - &amp;#39;a&amp;#39; if current.children[index] == nil { current.</description>
+      <description>Trie Implementation in GO Link to heading package main import &amp;#34;fmt&amp;#34; const ( // ChildrenLength Length of the alphabets ChildrenLength = 26 ) type trieNode struct { children [ChildrenLength]*trieNode isEnd bool } type trie struct { root *trieNode } func initTrie() *trie { return &amp;amp;trie{ root: &amp;amp;trieNode{}, } } func (t *trie) insert(word string) { current := t.root for _, val := range word { index := val - &amp;#39;a&amp;#39; if current.</description>
     </item>
     
     <item>
@@ -189,7 +198,7 @@ In a row of trees, the i-th tree produces fruit with type tree[i]. You start at 
       <pubDate>Thu, 16 Apr 2020 01:59:14 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1342_number_of_steps_to_reduce_to_zero/</guid>
-      <description>Leetcode 1342 Link to the question
+      <description>Leetcode 1342 Link to heading Link to the question
 Given a non-negative integer num, return the number of steps to reduce it to zero. If the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it. Example 1: Input: num = 14 Output: 6 Explanation: Step 1) 14 is even; divide by 2 and obtain 7. Step 2) 7 is odd; subtract 1 and obtain 6.</description>
     </item>
     
@@ -199,7 +208,7 @@ Given a non-negative integer num, return the number of steps to reduce it to zer
       <pubDate>Thu, 16 Apr 2020 01:55:48 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1403_minimum_subsequence_in_non_increasing_array/</guid>
-      <description>Leetcode 1403 Link to the question
+      <description>Leetcode 1403 Link to heading Link to the question
 Given the array nums, obtain a subsequence of the array whose sum of elements is strictly greater than the sum of the non included elements in such subsequence. If there are multiple solutions, return the subsequence with minimum size and if there still exist multiple solutions, return the subsequence with the maximum total sum of all its elements. A subsequence of an array can be obtained by erasing some (possibly zero) elements from the array.</description>
     </item>
     
@@ -209,7 +218,7 @@ Given the array nums, obtain a subsequence of the array whose sum of elements is
       <pubDate>Thu, 16 Apr 2020 01:51:56 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1394_find_lucky_integer_in_an_array/</guid>
-      <description>Leetcode 1394 Link to the question
+      <description>Leetcode 1394 Link to heading Link to the question
 Given an array of integers arr, a lucky integer is an integer which has a frequency in the array equal to its value. Return a lucky integer in the array. If there are multiple lucky integers return the largest of them. If there is no lucky integer return -1. Example 1: Input: arr = [2,2,3,4] Output: 2 Explanation: The only lucky number in the array is 2 because frequency[2] == 2.</description>
     </item>
     
@@ -219,7 +228,7 @@ Given an array of integers arr, a lucky integer is an integer which has a freque
       <pubDate>Wed, 15 Apr 2020 02:03:50 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1408_string_matching_in_an_array/</guid>
-      <description>Leetcode 1408 Link to the question
+      <description>Leetcode 1408 Link to heading Link to the question
 Given an array of string words. Return all strings in words which is substring of another word in any order. String words[i] is substring of words[j], if can be obtained removing some characters to left and/or right side of words[j]. Example 1: Input: words = [&amp;#34;mass&amp;#34;,&amp;#34;as&amp;#34;,&amp;#34;hero&amp;#34;,&amp;#34;superhero&amp;#34;] Output: [&amp;#34;as&amp;#34;,&amp;#34;hero&amp;#34;] Explanation: &amp;#34;as&amp;#34; is substring of &amp;#34;mass&amp;#34; and &amp;#34;hero&amp;#34; is substring of &amp;#34;superhero&amp;#34;. [&amp;#34;hero&amp;#34;,&amp;#34;as&amp;#34;] is also a valid answer.</description>
     </item>
     
@@ -229,8 +238,8 @@ Given an array of string words. Return all strings in words which is substring o
       <pubDate>Tue, 14 Apr 2020 02:10:42 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1313_decompress-run-length-encoded-list/</guid>
-      <description>Leetcode 1313 Link to the question
-We are given a list nums of integers representing a list compressed with run-length encoding. Consider each adjacent pair of elements [freq, val] = [nums[2*i], nums[2*i+1]] (with i &amp;gt;= 0). For each such pair, there are freq elements with value val concatenated in a sublist. Concatenate all the sublists from left to right to generate the decompressed list. Return the decompressed list. Example 1: Input: nums = [1,2,3,4] Output: [2,4,4,4] Explanation: The first pair [1,2] means we have freq = 1 and val = 2 so we generate the array [2].</description>
+      <description>Leetcode 1313 Link to heading Link to the question
+We are given a list nums of integers representing a list compressed with run-length encoding. Consider each adjacent pair of elements [freq, val] = [nums[2*i], nums[2*i+1]] (with i &amp;gt;= 0). For each such pair, there are freq elements with value val concatenated in a sublist. Concatenate all the sublists from left to right to generate the decompressed list. Return the decompressed list.</description>
     </item>
     
     <item>
@@ -239,7 +248,7 @@ We are given a list nums of integers representing a list compressed with run-len
       <pubDate>Tue, 14 Apr 2020 02:07:26 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1295_find-numbers-with-even-number-of-digits/</guid>
-      <description>Leetcode 1295 Link to the question
+      <description>Leetcode 1295 Link to heading Link to the question
 Given an array nums of integers, return how many of them contain an even number of digits. Example 1: Input: nums = [12,345,2,6,7896] Output: 2 Explanation: 12 contains 2 digits (even number of digits). 345 contains 3 digits (odd number of digits). 2 contains 1 digit (odd number of digits). 6 contains 1 digit (odd number of digits). 7896 contains 4 digits (even number of digits).</description>
     </item>
     
@@ -249,7 +258,7 @@ Given an array nums of integers, return how many of them contain an even number 
       <pubDate>Mon, 13 Apr 2020 03:02:11 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/771_jewels_and_stone/</guid>
-      <description>Leetcode 771 Link to the question
+      <description>Leetcode 771 Link to heading Link to the question
 You&amp;#39;re given strings J representing the types of stones that are jewels, and S representing the stones you have. Each character in S is a type of stone you have. You want to know how many of the stones you have are also jewels. The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so &amp;#34;a&amp;#34; is considered a different type of stone from &amp;#34;A&amp;#34;.</description>
     </item>
     
@@ -269,9 +278,8 @@ Implement int sqrt(int x). Compute and return the square root of x, where x is g
       <pubDate>Mon, 13 Apr 2020 02:12:28 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/1281_subtract-the-product-and-sum-of-digits-of-an-integer/</guid>
-      <description>Leetcode 1281 Link to the question
-Given an integer number n, return the difference between the product of its digits and the sum of its digits. Example 1: Input: n = 234 Output: 15 Explanation: Product of digits = 2 * 3 * 4 = 24 Sum of digits = 2 + 3 + 4 = 9 Result = 24 - 9 = 15 My solution -
-func subtractProductAndSum(n int) int { prod := 1; sum := 0; for n &amp;gt;0 { rem := n % 10; sum += rem; prod *= rem; n /= 10; } return prod - sum; } </description>
+      <description>Leetcode 1281 Link to heading Link to the question
+Given an integer number n, return the difference between the product of its digits and the sum of its digits. Example 1: Input: n = 234 Output: 15 Explanation: Product of digits = 2 * 3 * 4 = 24 Sum of digits = 2 + 3 + 4 = 9 Result = 24 - 9 = 15 My solution -</description>
     </item>
     
     <item>
@@ -280,7 +288,7 @@ func subtractProductAndSum(n int) int { prod := 1; sum := 0; for n &amp;gt;0 { r
       <pubDate>Sun, 12 Apr 2020 03:05:53 -0700</pubDate>
       
       <guid>https://www.chinmaymishra.me/leetcode/665_non_decreasing_array/</guid>
-      <description>Leetcode 665 Link to the question
+      <description>Leetcode 665 Link to heading Link to the question
 Given an array nums with n integers, your task is to check if it could become non-decreasing by modifying at most 1 element. We define an array is non-decreasing if nums[i] &amp;lt;= nums[i + 1] holds for every i (0-based) such that (0 &amp;lt;= i &amp;lt;= n - 2). Example 1: Input: nums = [4,2,3] Output: true Explanation: You could modify the first 4 to 1 to get a non-decreasing array.</description>
     </item>
     
